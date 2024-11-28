@@ -54,7 +54,7 @@ export const WebsiteConfig = {
             childs: [
                 {
                     label: "Timetable",
-                    link: "https://events.canonical.com/event/125/timetable/"
+                    link: "https://events.canonical.com/event/127/timetable/"
                 },
                 {
                     label: "Social events",
