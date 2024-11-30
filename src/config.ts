@@ -143,7 +143,7 @@ export const WebsiteConfig = {
         cityImage: PashupatinathTempleImage.src
     },
     blog: {
-        rssFeedUrl: "https://blog.ubucon.asia/tags/uca24/index.xml",
-        viewMoreUrl: "https://blog.ubucon.asia/tags/uca24"
+        rssFeedUrl: "https://blog.ubucon.asia/tags/uca25/index.xml",
+        viewMoreUrl: "https://blog.ubucon.asia/tags/uca25"
     },
 }
