@@ -1,4 +1,4 @@
-import UCALogo from './assets/logo.svg'
+import UCALogo from './assets/uca25logotmp.png'
 import PashupatinathTempleImage from '@assets/pashupatinath_temple.jpg'
 import UbuConAsiaCommitteeLogo from "@assets/UbuConAsiaCommittee.svg"
 import OSCollectiveLogo from "@assets/oscollective.webp";
