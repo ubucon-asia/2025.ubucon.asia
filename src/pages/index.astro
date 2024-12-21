@@ -30,7 +30,7 @@ import { WebsiteConfig } from '../config';
 		  		</div>
 			</div>
 		</section>
-	<FeaturedSpeakers/>
+	{WebsiteConfig.featuredSpeakers.displayOnMainPage ? (<FeaturedSpeakers/>):(<></>)}
 	<div class="p-section">
 		<div class="row--50-50-on-large">
 		<hr>

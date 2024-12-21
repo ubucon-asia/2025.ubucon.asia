@@ -134,6 +134,7 @@ export const WebsiteConfig = {
         logo: UCALogo
     },
     featuredSpeakers: {
+        displayOnMainPage: false,
         indicoExportUrl: "https://events.canonical.com/export/event/47.json?detail=contributions&occ=yes&pretty=yes",
         contributionIds: [20, 46, 43, 34, 19],
         speakerIds: [{ db_id: 522, user: 107 }, { db_id: 517, user: 166 }, { db_id: 494, user: 615 }, { db_id: 515, user: 628 }, { db_id: 516, user: 271 }, { db_id: 487, user: 3 }],
