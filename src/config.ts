@@ -3,7 +3,7 @@ import PashupatinathTempleImage from '@assets/pashupatinath_temple.jpg'
 import UbuConAsiaCommitteeLogo from "@assets/UbuConAsiaCommittee.svg"
 import OSCollectiveLogo from "@assets/oscollective.webp";
 import GNOMENepal from "@assets/gnomenepal.svg";
-
+import PreviewImage from "@assets/ogimage.jpeg";
 export interface SubMenuItem {
     link: string;
     label: string;
@@ -13,6 +13,9 @@ export const WebsiteConfig = {
     siteTitle: "UbuCon Asia 2025",
     siteDescription: "Kathmandu, Nepal | August 30-31",
     faviconPath: UCALogo.src,
+    openGraph:{
+        imagePath: PreviewImage.src
+    },
     navigation: [
         {
             label: "About",

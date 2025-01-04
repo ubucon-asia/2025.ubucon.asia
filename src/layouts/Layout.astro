@@ -19,6 +19,9 @@ const { title, description } = Astro.props;
 		<link rel="icon" type="image/svg" href={WebsiteConfig.faviconPath} />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title ? `${title} | ${WebsiteConfig.siteTitle}` : WebsiteConfig.siteTitle}</title>
+		<meta property="og:title" content={title ? `${title} | ${WebsiteConfig.siteTitle}` : WebsiteConfig.siteTitle} />
+		<meta property="og:description" content={description ? description : WebsiteConfig.siteDescription}/>
+		<meta property="og:image" content={WebsiteConfig.openGraph.imagePath} />
 	</head>
 	<body>
 		<slot />
