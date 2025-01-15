@@ -3,7 +3,7 @@ import PashupatinathTempleImage from '@assets/pashupatinath_temple.jpg'
 import UbuConAsiaCommitteeLogo from "@assets/UbuConAsiaCommittee.svg"
 import OSCollectiveLogo from "@assets/oscollective.webp";
 import GNOMENepal from "@assets/gnomenepal.svg";
-import PreviewImage from "@assets/ogimage.jpeg";
+import PreviewImage from "@assets/ogimage.png";
 export interface SubMenuItem {
     link: string;
     label: string;
