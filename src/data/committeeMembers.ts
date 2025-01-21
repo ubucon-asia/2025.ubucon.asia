@@ -65,7 +65,7 @@ export const committeeMembers = [
         name: "Utsav Bhattarai",
         team: "Local team",
         role: "Web, Content",
-        profileImageurl: "https://avatars.githubusercontent.com/u/95236817?v=4"
+        profileImageUrl: "https://avatars.githubusercontent.com/u/95236817?v=4"
     },
     {
         name: "Rabina Karki",
