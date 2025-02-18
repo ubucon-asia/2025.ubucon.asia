@@ -7,6 +7,8 @@ import JamesImage from "@assets/localteam/james.jpg";
 import AayushImage from "@assets/localteam/aayush.jpg";
 import AadarshImage from "@assets/localteam/aadarsh.jpg";
 import RabinaImage from "@assets/localteam/rabina.jpg";
+import BibhushanImage from "@assets/localteam/bibhushan.jpg";
+import AshutoshImage from "@assets/localteam/ashutosh.jpg";
 
 export const committeeMembers = [
   {
@@ -122,5 +124,17 @@ export const committeeMembers = [
     team: "Local team",
     role: "Marketing & Design",
     profileImageUrl: AayushImage.src,
+  },
+  {
+    name: "Bibhushan Saakha",
+    team: "Local team",
+    role: "Marketing & Design",
+    profileImageUrl: BibhushanImage.src,
+  },
+  {
+    name: "Ashutosh Vaidya",
+    team: "Local team",
+    role: "Logistics & Facility",
+    profileImageUrl: AshutoshImage.src,
   },
 ];
