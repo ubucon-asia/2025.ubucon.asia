@@ -141,7 +141,7 @@ export const committeeMembers = [
   {
     name: "Roshan Sahani",
     team: "Local team",
-    role: "Finances",
+    role: "Sponsorship & Finances",
     profileImageUrl: FelixImage.src,
   },
 ];
