@@ -152,4 +152,9 @@ export const WebsiteConfig = {
         rssFeedUrl: "https://blog.ubucon.asia/tags/uca25/index.xml",
         viewMoreUrl: "https://blog.ubucon.asia/tags/uca25"
     },
+    cfgLink: {
+        headMetaDescription: "Submit to speak today! Deadline March 31st, 2025",
+        socialCardImage: "https://2025.ubucon.asia/uca24cfp.png",
+        cfpLink: "https://events.canonical.com/event/127/abstracts/"
+    }
 }
