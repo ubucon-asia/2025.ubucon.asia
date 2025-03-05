@@ -58,7 +58,7 @@ export const WebsiteConfig = {
             childs: [
                 {
                     label: "Call for proposals",
-                    link: "https://2025.ubucon.asia/cfp"
+                    link: "/cfp"
                 },
                 {
                     label: "Timetable",
@@ -127,13 +127,18 @@ export const WebsiteConfig = {
         ]
     },
     mainBanner: {
-        dates: "August 30-31*",
-        venue: "St. Xavier’s College, Kathmandu, Nepal*",
+        dates: "August 30-31",
+        venue: "St. Xavier’s College, Kathmandu, Nepal",
         description: "UbuCon Asia is a community-organized conference connecting Ubuntu community in Asia. \
             Join us in Kathmandu for two days memorable of conference that connects \
             enthusiast, engineers, creators, researchers, entrepreneurs and contributors across Asia.",
-        footnote: "*To be confirmed",
+        footnote: "",
         buttons: [
+            {
+                label: "Submit proposal today!",
+                link: "/cfp",
+                class: "p-button--positive"
+            },
             {
                 label: "Become a sponsor!",
                 link: "/sponsors/become-a-sponsor",
