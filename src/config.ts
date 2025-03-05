@@ -57,6 +57,10 @@ export const WebsiteConfig = {
             link: "#",
             childs: [
                 {
+                    label: "Call for proposals",
+                    link: "https://2025.ubucon.asia/cfp"
+                },
+                {
                     label: "Timetable",
                     link: "https://events.canonical.com/event/127/timetable/"
                 },
