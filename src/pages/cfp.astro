@@ -1,5 +1,6 @@
 ---
 import { WebsiteConfig } from "../config";
+const linkToCfp = WebsiteConfig.cfpLink.cfpLink;
 ---
 <meta charset="utf-8">
 
@@ -17,10 +18,10 @@ import { WebsiteConfig } from "../config";
 <meta name="twitter:image" content={WebsiteConfig.cfpLink.socialCardImage}>
 
 <body>
-    <p>Page won't redirect if Javescript is disabled. <a href={WebsiteConfig.cfpLink.cfpLink}>In that case, Click here to redirect manually.</a></p>
+    <p>Page won't redirect if Javescript is disabled. <a href={linkToCfp}>In that case, Click here to redirect manually.</a></p>
 </body>
 
-<script is:inline>
+<script is:inline define:vars={{ linkToCfp }}>
     //redirect
-    window.location = {WebsiteConfig.cfpLink.cfpLink} 
+    window.location = linkToCfp; 
 </script>
