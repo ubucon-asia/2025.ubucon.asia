@@ -94,9 +94,9 @@ export const sponsors = [
       {
         name: "Become a sponsor!",
         logoUrl: annapurna.src,
-        url: "/sponsors/become-a-sponsor",
+        url: "https://amnnepal.com/",
         description:
-          "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+          "Annapurna Media Network (AMN) is a leading media company in Nepal, dedicated to promoting the country’s social and economic development through responsible media practices.  Established in 2002, AMN has expanded its reach across various platforms, including print, radio, television, and digital media.",
       },
     ],
   },
