@@ -4,6 +4,7 @@ import UbuConAsiaCommitteeLogo from "@assets/UbuConAsiaCommittee.svg"
 import OSCollectiveLogo from "@assets/oscollective.webp";
 import GNOMENepal from "@assets/gnomenepal.svg";
 import PreviewImage from "@assets/ogimage.png";
+import CfpPromoImage from "@assets/uca25cfp_promo.jpg"
 export interface SubMenuItem {
     link: string;
     label: string;
@@ -167,7 +168,7 @@ export const WebsiteConfig = {
     },
     cfpLink: {
         headMetaDescription: "Submit to speak today! Deadline March 31st, 2025",
-        socialCardImage: "https://2025.ubucon.asia/uca24cfp.png",
+        socialCardImage: CfpPromoImage.src,
         cfpLink: "https://events.canonical.com/event/127/abstracts/"
     }
 }
