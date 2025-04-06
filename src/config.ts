@@ -167,7 +167,7 @@ export const WebsiteConfig = {
         viewMoreUrl: "https://blog.ubucon.asia/tags/uca25"
     },
     cfpLink: {
-        headMetaDescription: "Submit to speak today! Deadline March 31st, 2025",
+        headMetaDescription: "Submit to speak today! Deadline April 15th, 2025",
         socialCardImage: CfpPromoImage.src,
         cfpLink: "https://events.canonical.com/event/127/abstracts/"
     }
