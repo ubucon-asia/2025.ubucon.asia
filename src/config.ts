@@ -20,8 +20,17 @@ export const WebsiteConfig = {
     navigation: [
         {
             label: "About",
-            link: "/about",
-            childs: []
+            link: "#",
+            childs: [
+                {
+                    label: "About the event",
+                    link: "/about",
+                },
+                {
+                    label: "Code of conduct",
+                    link: "/code-of-conduct",
+                }
+            ]
         },
         {
             label: "Venue & Travel",
