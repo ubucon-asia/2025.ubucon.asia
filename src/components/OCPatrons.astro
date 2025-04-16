@@ -1,0 +1,53 @@
+---
+const { ocApiUrl } = Astro.props;
+const patronsResponse = await fetch(ocApiUrl);
+const patrons = await patronsResponse.json();
+---
+
+<div class="grid-row">
+    {
+        patrons.map(
+            (patron: {
+                MemberId: number;
+                createdAt: string;
+                type: string;
+                role: string;
+                tier: string;
+                isActive: Boolean;
+                totalAmountDonated: number;
+                currency: string;
+                lastTransactionAt: string;
+                lastTransactionAmount: number;
+                profile: string;
+                name: string;
+                company: string;
+                description: string;
+                image: string;
+                email: string;
+                newsletterOptIn: Boolean;
+                twitter: string;
+                github: string;
+                website: string;
+            }) => (
+                <div class="grid-col-medium-3 grid-col-4">
+                    <div class="p-media-object--large">
+                        <img
+                            src={patron.image}
+                            class="p-media-object__image is-round"
+                            alt={patron.name}
+                        />
+                        <div class="p-media-object__details">
+                            <a href={patron.profile}>
+                                <h4>{patron.name}</h4>
+                            </a>
+                            <p class="p-media-object__content">
+                                {`${patron.totalAmountDonated} ${patron.currency}`}
+                            </p>
+                            <ul class="p-media-object__meta-list" />
+                        </div>
+                    </div>
+                </div>
+            ),
+        )
+    }
+</div>
