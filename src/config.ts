@@ -125,7 +125,7 @@ export const WebsiteConfig = {
   subNavigation: [
     {
       label: "🎟️",
-      link: "#",
+      link: "/tickets",
       childs: [],
     },
   ],
