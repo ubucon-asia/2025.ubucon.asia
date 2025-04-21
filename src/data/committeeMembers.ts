@@ -4,8 +4,6 @@ import RoshanImage from "@assets/localteam/roshan.jpg";
 import RupeshImage from "@assets/localteam/rupesh.jpg";
 import BadalImage from "@assets/localteam/badal.jpg";
 import JamesImage from "@assets/localteam/james.jpg";
-import AayushImage from "@assets/localteam/aayush.jpg";
-import AadarshImage from "@assets/localteam/aadarsh.jpg";
 import RabinaImage from "@assets/localteam/rabina.jpg";
 import BibhushanImage from "@assets/localteam/bibhushan.jpg";
 import AshutoshImage from "@assets/localteam/ashutosh.jpg";
@@ -85,12 +83,6 @@ export const committeeMembers = [
     profileImageUrl: RabinaImage.src,
   },
   {
-    name: "Aadarsha Dhakal",
-    team: "Local team",
-    role: "Registration & People Coordination",
-    profileImageUrl: AadarshImage.src,
-  },
-  {
     name: "Yush Pokharel",
     team: "Local team",
     role: "Marketing & Design, Sponsorship & Finances",
@@ -104,7 +96,7 @@ export const committeeMembers = [
   },
   {
     name: "Rupesh Nepal",
-    team: "Local team",
+    team: "Local team & GNOME Nepal",
     role: "Registration & People Coordination, Content",
     profileImageUrl: RupeshImage.src,
   },
@@ -119,12 +111,6 @@ export const committeeMembers = [
     team: "Local team",
     role: "Sponsorship & Finances",
     profileImageUrl: JamesImage.src,
-  },
-  {
-    name: "Aayush Pokharel",
-    team: "Local team",
-    role: "Marketing & Design",
-    profileImageUrl: AayushImage.src,
   },
   {
     name: "Bibhushan Saakha",
