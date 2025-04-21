@@ -1,0 +1,23 @@
+---
+const { img,name,team,role } = Astro.props;
+---
+
+<div class="col-4 col-medium-3">
+  <div class="p-media-object--large">
+    <img
+      src={img}
+      class="p-media-object__image is-round"
+      alt={name}
+    />
+    <div class="p-media-object__details">
+      <h4>{name}</h4>
+      <p class="p-media-object__content">
+        {team}
+      </p>
+      <p class="p-media-object__content">
+        {role}
+      </p>
+      <ul class="p-media-object__meta-list"></ul>
+    </div>
+  </div>
+</div>
