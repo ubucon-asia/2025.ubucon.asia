@@ -2,16 +2,16 @@ import UcaLogo from "@assets/logo.svg";
 import YushImage from "@assets/localteam/yush.jpg";
 import RoshanImage from "@assets/localteam/roshan.jpg";
 import RupeshImage from "@assets/localteam/rupesh.jpg";
+import UtsavImage from "@assets/localteam/utsav.jpg";
 import BadalImage from "@assets/localteam/badal.jpg";
 import JamesImage from "@assets/localteam/james.jpg";
-import AayushImage from "@assets/localteam/aayush.jpg";
-import AadarshImage from "@assets/localteam/aadarsh.jpg";
 import RabinaImage from "@assets/localteam/rabina.jpg";
 import BibhushanImage from "@assets/localteam/bibhushan.jpg";
 import AshutoshImage from "@assets/localteam/ashutosh.jpg";
 import FelixImage from "@assets/localteam/felix.jpg";
+import RajImage from "@assets/localteam/raj.jpg";
 
-export const committeeMembers = [
+  export const committeeMembers = [
   {
     name: "Youngbin Han",
     team: "Global team & Ubuntu Korea Community, Ubuntu LoCo Council",
@@ -76,19 +76,13 @@ export const committeeMembers = [
     name: "Utsav Bhattarai",
     team: "Local team & GNOME Nepal",
     role: "Web, Content",
-    profileImageUrl: "https://avatars.githubusercontent.com/u/95236817?v=4",
+    profileImageUrl: UtsavImage.src,
   },
   {
     name: "Rabina Karki",
     team: "Local team",
     role: "Sponsorship & Finances",
     profileImageUrl: RabinaImage.src,
-  },
-  {
-    name: "Aadarsha Dhakal",
-    team: "Local team",
-    role: "Registration & People Coordination",
-    profileImageUrl: AadarshImage.src,
   },
   {
     name: "Yush Pokharel",
@@ -104,7 +98,7 @@ export const committeeMembers = [
   },
   {
     name: "Rupesh Nepal",
-    team: "Local team",
+    team: "Local team & GNOME Nepal",
     role: "Registration & People Coordination, Content",
     profileImageUrl: RupeshImage.src,
   },
@@ -119,12 +113,6 @@ export const committeeMembers = [
     team: "Local team",
     role: "Sponsorship & Finances",
     profileImageUrl: JamesImage.src,
-  },
-  {
-    name: "Aayush Pokharel",
-    team: "Local team",
-    role: "Marketing & Design",
-    profileImageUrl: AayushImage.src,
   },
   {
     name: "Bibhushan Saakha",
@@ -143,5 +131,11 @@ export const committeeMembers = [
     team: "Local team",
     role: "Sponsorship & Finances",
     profileImageUrl: FelixImage.src,
+  },
+  {
+    name: "Ja Raj Tuladhar",
+    team: "Local team",
+    role: "Sponsorship & Finances",
+    profileImageUrl: RajImage.src,
   },
 ];
