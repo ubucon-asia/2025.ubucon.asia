@@ -10,8 +10,9 @@ import BibhushanImage from "@assets/localteam/bibhushan.jpg";
 import AshutoshImage from "@assets/localteam/ashutosh.jpg";
 import FelixImage from "@assets/localteam/felix.jpg";
 import RajImage from "@assets/localteam/raj.jpg";
+import shashwotImage from "@assets/localteam/shashwot.jpg";
 
-  export const committeeMembers = [
+export const committeeMembers = [
   {
     name: "Youngbin Han",
     team: "Global team & Ubuntu Korea Community, Ubuntu LoCo Council",
@@ -137,5 +138,11 @@ import RajImage from "@assets/localteam/raj.jpg";
     team: "Local team",
     role: "Sponsorship & Finances",
     profileImageUrl: RajImage.src,
+  },
+  {
+    name: "Shaswot Sher Adhikari",
+    team: "Local team",
+    role: "Sponsorship & Finances",
+    profileImageUrl: shashwotImage.src,
   },
 ];
