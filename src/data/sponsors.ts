@@ -1,7 +1,7 @@
-
 import logoPlaceHolder from "@assets/logo_placeholder.svg";
-import annapurna from "@assets/sponsors/annapurna.png"
-
+import annapurna from "@assets/sponsors/annapurna.png";
+import global_cyber from "@assets/sponsors/Global_Cybersecurity_Community.png";
+import impact_nexus from "@assets/sponsors/impact_nexus_nepal.png";
 
 export const sponsors = [
   {
@@ -108,11 +108,25 @@ export const sponsors = [
     showPopup: false,
     list: [
       {
-        name: "Become a sponsor!",
-        logoUrl: logoPlaceHolder.src,
-        url: "/sponsors/become-a-sponsor",
-        description:
-          "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+        name: "Global Cybersecurity Community Forum",
+        logoUrl: global_cyber.src,
+        url: "",
+        description: "",
+      },
+    ],
+  },
+  {
+    sponsorLevelName: "Fiscal Partner",
+    sizeOnLargeScreen: 2,
+    sizeOnMediumScreen: 2,
+    sizeOnSmallScreen: 1,
+    showPopup: false,
+    list: [
+      {
+        name: "Impact Nexus Nepal",
+        logoUrl: impact_nexus.src,
+        url: "",
+        description: "",
       },
     ],
   },
