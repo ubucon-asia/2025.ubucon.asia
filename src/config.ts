@@ -6,6 +6,8 @@ import GNOMENepal from "@assets/gnomenepal.svg";
 import PreviewImage from "@assets/ogimage.png";
 import UbuntuNepal from "@assets/ubuntu_nepal.png";
 import CfpPromoImage from "@assets/uca25cfp_promo.jpg"
+import impact_nexus from "@assets/sponsors/impact_nexus_nepal.png";
+
 export interface SubMenuItem {
     link: string;
     label: string;
@@ -153,6 +155,11 @@ export const WebsiteConfig = {
         name: "Open Source Collective",
         logoImage: OSCollectiveLogo.src,
         link: "https://www.oscollective.org/",
+      },
+      {
+        name: "Impact Nexus Nepal",
+        logoImage: impact_nexus.src,
+        link: "https://www.impactnexusnepal.org.np/",
       },
     ],
   },
