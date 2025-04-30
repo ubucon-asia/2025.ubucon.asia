@@ -101,21 +101,6 @@ export const sponsors = [
     ],
   },
   {
-    sponsorLevelName: "Fiscal Partner",
-    sizeOnLargeScreen: 2,
-    sizeOnMediumScreen: 2,
-    sizeOnSmallScreen: 1,
-    showPopup: false,
-    list: [
-      {
-        name: "Impact Nexus Nepal",
-        logoUrl: impact_nexus.src,
-        url: "",
-        description: "",
-      },
-    ],
-  },
-  {
     sponsorLevelName: "Community Partners",
     sizeOnLargeScreen: 2,
     sizeOnMediumScreen: 2,
@@ -125,6 +110,21 @@ export const sponsors = [
       {
         name: "Global Cybersecurity Community Forum",
         logoUrl: global_cyber.src,
+        url: "",
+        description: "",
+      },
+    ],
+  },
+  {
+    sponsorLevelName: "Fiscal Partner",
+    sizeOnLargeScreen: 2,
+    sizeOnMediumScreen: 2,
+    sizeOnSmallScreen: 1,
+    showPopup: false,
+    list: [
+      {
+        name: "Impact Nexus Nepal",
+        logoUrl: impact_nexus.src,
         url: "",
         description: "",
       },
