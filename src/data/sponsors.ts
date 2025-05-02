@@ -1,6 +1,9 @@
 import logoPlaceHolder from "@assets/logo_placeholder.svg";
 import annapurna from "@assets/sponsors/annapurna.png";
 import global_cyber from "@assets/sponsors/Global_Cybersecurity_Community.png";
+import Canonical from "@assets/sponsors/Canonical_Ubuntu.svg";
+import ONLYOFFICE from "@assets/sponsors/onlyOffice.svg";
+
 
 export const sponsors = [
   {
@@ -11,11 +14,11 @@ export const sponsors = [
     showPopup: true,
     list: [
       {
-        name: "Become a sponsor!",
-        logoUrl: logoPlaceHolder.src,
-        url: "/sponsors/become-a-sponsor",
+        name: "Canonical",
+        logoUrl: Canonical.src,
+        url: "https://ubuntu.com/",
         description:
-          "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+          "Canonical, the publisher of Ubuntu, delivers the operating system widely used for public cloud workloads and increasingly adopted in emerging technologies such as smart gateways, autonomous vehicles, and advanced robotics. It also offers enterprise-grade security, support, and services for commercial users of Ubuntu.",
       },
     ],
   },
@@ -59,11 +62,11 @@ export const sponsors = [
     showPopup: true,
     list: [
       {
-        name: "Become a sponsor!",
-        logoUrl: logoPlaceHolder.src,
-        url: "/sponsors/become-a-sponsor",
+        name: "ONLYOFFICE",
+        logoUrl: ONLYOFFICE.src,
+        url: "https://www.onlyoffice.com",
         description:
-          "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+          "ONLYOFFICE, developed by Ascensio System SIA, is a robust office suite featuring online editors for documents, spreadsheets, and presentations, with strong compatibility with both Microsoft Office and OpenDocument file formats.",
       },
     ],
   },
