@@ -29,7 +29,7 @@ export const committeeMembers = [
     name: "Muhd Syazwan",
     team: "Global team & Ubuntu Malaysia",
     role: "Web, Logistics & Facility, Content",
-    profileImageUrl: UcaLogo.src,
+    profileImageUrl: "https://avatars.githubusercontent.com/u/685497?v=4",
   },
   {
     name: "RJ Hsiao",
