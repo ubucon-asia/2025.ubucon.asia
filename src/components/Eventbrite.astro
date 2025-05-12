@@ -1,25 +1,38 @@
 ---
 const { eventbriteSlug, eventbriteId } = Astro.props;
-
 ---
 
+<eventbrite-widget data-eventid={eventbriteId}></eventbrite-widget>
 <!-- Noscript content for added SEO -->
-<noscript><a href={`https://www.eventbrite.com/e/${eventbriteSlug}`} rel="noopener noreferrer" target="_blank">Buy Tickets on Eventbrite</a></noscript>
+<noscript
+    ><a
+        href={`https://www.eventbrite.com/e/${eventbriteSlug}`}
+        rel="noopener noreferrer"
+        target="_blank">Buy Tickets on Eventbrite</a
+    ></noscript
+>
 <!-- You can customize this button any way you like -->
-<button id={`eventbrite-widget-modal-trigger-${eventbriteId}`} type="button">Buy Tickets</button>
+<button id="eventbrite-widget-modal-trigger" type="button">Buy Tickets</button>
 
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js" is:inline
+></script>
 
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
+<script type="text/javascript" is:inline>
+    class EventbriteWidget extends HTMLElement {
+        connectedCallback() {
+            // Read the message from the data attribute.
+            const eventbriteId = this.dataset.eventid;
+            window.EBWidgets.createWidget({
+                widgetType: "checkout",
+                eventId: eventbriteId,
+                modal: true,
+                modalTriggerElementId: "eventbrite-widget-modal-trigger",
+                onOrderComplete: function () {
+                    console.log("Order complete!");
+                },
+            });
+        }
+    }
 
-    window.EBWidgets.createWidget({
-        widgetType: 'checkout',
-        eventId: eventbriteId,
-        modal: true,
-        modalTriggerElementId: `eventbrite-widget-modal-trigger-${eventbriteId}`,
-        onOrderComplete: exampleCallback
-    });
+    customElements.define("eventbrite-widget", EventbriteWidget);
 </script>
