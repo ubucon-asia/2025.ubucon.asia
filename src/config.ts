@@ -212,4 +212,8 @@ export const WebsiteConfig = {
     socialCardImage: CfpPromoImage.src,
     cfpLink: "https://events.canonical.com/event/127/abstracts/",
   },
+  tickets: {
+    eventbriteId: "1311936359969",
+    eventbriteSlug: "ubucon-asia-2025-tickets-1311936359969"
+  }
 };
