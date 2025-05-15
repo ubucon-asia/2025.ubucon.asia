@@ -173,8 +173,8 @@ export const WebsiteConfig = {
     footnote: "",
     buttons: [
       {
-        label: "Submit proposal today!",
-        link: "/cfp",
+        label: "Register",
+        link: "/tickets",
         class: "p-button--positive",
       },
       {
