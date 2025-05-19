@@ -149,7 +149,7 @@ export const WebsiteConfig = {
       },
       {
         name: "Ubuntu Nepal",
-        logoImage: UbuntuNepal.src
+        logoImage: UbuntuNepal.src,
       },
       {
         name: "Open Source Collective",
@@ -173,8 +173,8 @@ export const WebsiteConfig = {
     footnote: "",
     buttons: [
       {
-        label: "Submit proposal today!",
-        link: "/cfp",
+        label: "Register",
+        link: "/tickets",
         class: "p-button--positive",
       },
       {
@@ -214,6 +214,6 @@ export const WebsiteConfig = {
   },
   tickets: {
     eventbriteId: "1311936359969",
-    eventbriteSlug: "ubucon-asia-2025-tickets-1311936359969"
-  }
+    eventbriteSlug: "ubucon-asia-2025-tickets-1311936359969",
+  },
 };

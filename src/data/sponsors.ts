@@ -3,8 +3,6 @@ import annapurna from "@assets/sponsors/annapurna.png";
 import global_cyber from "@assets/sponsors/community_partners/Global_Cybersecurity_Community.png";
 import Canonical from "@assets/sponsors/Canonical_Ubuntu.svg";
 import ONLYOFFICE from "@assets/sponsors/onlyOffice.svg";
-import HamroPatro from "@assets/sponsors/hamro_patro.svg";
-import HamroPay from "@assets/sponsors/hamro_pay.svg";
 import CSRI from "@assets/sponsors/community_partners/csri.png";
 import nosk from "@assets/sponsors/community_partners/nosk.png";
 import programiz from "@assets/sponsors/programiz.svg";
@@ -106,30 +104,6 @@ export const sponsors = [
       },
     ],
   },
-  {
-    sponsorLevelName: "Ticketing Partner",
-    sizeOnLargeScreen: 2,
-    sizeOnMediumScreen: 2,
-    sizeOnSmallScreen: 1,
-    showPopup: true,
-    list: [
-      {
-        name: "Hamro Patro",
-        logoUrl: HamroPatro.src,
-        url: "https://www.hamropatro.com/",
-        description:
-          "Hamro Patro is a popular Nepali app that provides a calendar, news, horoscopes, forex rates, and festival updates. It helps users stay connected to Nepali culture and important dates, both in Nepal and abroad.",
-      },
-      {
-        name: "Hamro Pay",
-        logoUrl: HamroPay.src,
-        url: "https://hamropay.com.np/",
-        description:
-          "Hamro Pay, developed by Lenden Sewa Pvt. Ltd. and licensed by Nepal Rastra Bank, is a digital wallet offering mobile top-ups, utility bill payments, bank transfers, and QR payments. Initially integrated into the Hamro Patro app, it now functions as a standalone app with added features like remittance and expense tracking.",
-      },
-    ],
-  },
-
   {
     sponsorLevelName: "Media Partner",
     sizeOnLargeScreen: 2,
