@@ -1,12 +1,13 @@
 import logoPlaceHolder from "@assets/logo_placeholder.svg";
 import annapurna from "@assets/sponsors/annapurna.png";
-import global_cyber from "@assets/sponsors/Global_Cybersecurity_Community.png";
+import global_cyber from "@assets/sponsors/community_partners/Global_Cybersecurity_Community.png";
 import Canonical from "@assets/sponsors/Canonical_Ubuntu.svg";
 import ONLYOFFICE from "@assets/sponsors/onlyOffice.svg";
-import HamroPatro from "@assets/sponsors/hamro_patro.png";
-import HamroPay from "@assets/sponsors/hamro_pay.png";
-import CSRI from "@assets/sponsors/csri.png";
-import nosk from "@assets/sponsors/nosk.png";
+import HamroPatro from "@assets/sponsors/hamro_patro.svg";
+import HamroPay from "@assets/sponsors/hamro_pay.svg";
+import CSRI from "@assets/sponsors/community_partners/csri.png";
+import nosk from "@assets/sponsors/community_partners/nosk.png";
+import programiz from "@assets/sponsors/programiz.svg";
 
 export const sponsors = [
   {
@@ -90,6 +91,22 @@ export const sponsors = [
     ],
   },
   {
+    sponsorLevelName: "Knowledge Partner",
+    sizeOnLargeScreen: 2,
+    sizeOnMediumScreen: 2,
+    sizeOnSmallScreen: 1,
+    showPopup: true,
+    list: [
+      {
+        name: "Programiz",
+        logoUrl: programiz.src,
+        url: "https://www.programiz.com/",
+        description:
+          "Programiz is a learning platform by Parewa Labs that helps beginners easily learn programming through interactive tutorials, coding challenges, and real-world projects. Covering languages like Python, C, C++, Java and many more. It serves over 10 million learners globally through its website, mobile apps, and Programiz PRO subscription.",
+      },
+    ],
+  },
+  {
     sponsorLevelName: "Ticketing Partner",
     sizeOnLargeScreen: 2,
     sizeOnMediumScreen: 2,
@@ -112,6 +129,7 @@ export const sponsors = [
       },
     ],
   },
+
   {
     sponsorLevelName: "Media Partner",
     sizeOnLargeScreen: 2,
