@@ -6,6 +6,7 @@ import ONLYOFFICE from "@assets/sponsors/onlyOffice.svg";
 import CSRI from "@assets/sponsors/community_partners/csri.png";
 import nosk from "@assets/sponsors/community_partners/nosk.png";
 import programiz from "@assets/sponsors/programiz.svg";
+import sxc from "@assets/sponsors/sxc.png"
 
 export const sponsors = [
   {
@@ -85,6 +86,22 @@ export const sponsors = [
         url: "/sponsors/become-a-sponsor",
         description:
           "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+      },
+    ],
+  },
+  {
+    sponsorLevelName: "Education Partner",
+    sizeOnLargeScreen: 2,
+    sizeOnMediumScreen: 2,
+    sizeOnSmallScreen: 1,
+    showPopup: true,
+    list: [
+      {
+        name: "St. Xavier's College",
+        logoUrl: sxc.src,
+        url: "https://www.sxc.edu.np/",
+        description:
+          "St. Xavier’s College, Maitighar, Kathmandu, is a leading Jesuit institution offering quality education in science, management, and humanities. Established in 1988, it is known for academic excellence, holistic development, and commitment to social responsibility.",
       },
     ],
   },
