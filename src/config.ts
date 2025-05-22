@@ -82,6 +82,10 @@ export const WebsiteConfig = {
           link: "/programs/social-events/",
         },
         {
+          label: "Exhibitions",
+          link: "/programs/exhibitions/",
+        },
+        {
           label: "Important dates",
           link: "/programs/important-dates/",
         },
