@@ -4,6 +4,9 @@ title: Exhibitions
 description: See who will be running booths at the conference to exhibit their works.
 ---
 
+import {exhibitors} from "@data/exhibitors";
+
+
 We will be running exhibitions area during the conference. Get a booth in our venue to showcase your to the conference participants.
 It will be a great opportunity to meet and network with the participants in person very closely.
 
@@ -20,7 +23,24 @@ Please submit community booth application today by clicking the link below.
 
 # List of exhibitors
 
-To find list of confirmed booths, please visit links below.
+You may also see list of booth [here](https://events.canonical.com/event/127/contributions/?config=59bdbd2f-f80b-4c91-8a5e-a1479c837171).
 
-- [Community booths](https://events.canonical.com/event/127/contributions/?config=48d4987c-9ea2-4693-98e7-074053181009)
-- [Sponsor booths](https://events.canonical.com/event/127/contributions/?config=c6f78bba-eb45-482e-bada-82edfdff6656)
+<div class="grid-row">
+{exhibitors.map((item) => (
+  <div class="p-card grid-col-2">
+    <img class="p-card__image" src={item.imgSrc} alt={item.title} />
+    <hr class="u-sv1"/>
+    <h3>{item.title}</h3>
+    <p class="p-card__content">
+        <button class="p-chip">
+            <span class="p-chip__value">{item.type}</span>
+        </button>
+    </p>    
+    <p class="p-card__content">
+        <a href={item.href} target="_blank">
+        <button class="p-button has-icon"><span>Learn more</span><i class="p-icon--external-link"></i></button>
+        </a>
+    </p>
+  </div>
+))}
+</div>
