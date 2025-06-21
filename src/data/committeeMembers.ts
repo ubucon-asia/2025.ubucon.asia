@@ -135,12 +135,6 @@ export const committeeMembers = [
     profileImageUrl: RajImage.src,
   },
   {
-    name: "Shaswot Sher Adhikari",
-    team: "Local team",
-    role: "Sponsorship & Finances",
-    profileImageUrl: shashwotImage.src,
-  },
-  {
     name: "Sanjay Paudel",
     team: "Local team",
     role:"Local Mentoring & Support",

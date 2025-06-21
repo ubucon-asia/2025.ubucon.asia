@@ -33,13 +33,13 @@ export const sponsors = [
     sizeOnSmallScreen: 3,
     showPopup: true,
     list: [
-      {
-        name: "Become a sponsor!",
-        logoUrl: logoPlaceHolder.src,
-        url: "/sponsors/become-a-sponsor",
-        description:
-          "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
-      },
+      // {
+      //   name: "Become a sponsor!",
+      //   logoUrl: logoPlaceHolder.src,
+      //   url: "/sponsors/become-a-sponsor",
+      //   description:
+      //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+      // },
     ],
   },
   {
@@ -49,13 +49,13 @@ export const sponsors = [
     sizeOnSmallScreen: 2,
     showPopup: true,
     list: [
-      {
-        name: "Become a sponsor!",
-        logoUrl: logoPlaceHolder.src,
-        url: "/sponsors/become-a-sponsor",
-        description:
-          "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
-      },
+      // {
+      //   name: "Become a sponsor!",
+      //   logoUrl: logoPlaceHolder.src,
+      //   url: "/sponsors/become-a-sponsor",
+      //   description:
+      //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+      // },
     ],
   },
   {
@@ -90,13 +90,13 @@ export const sponsors = [
     sizeOnSmallScreen: 1,
     showPopup: true,
     list: [
-      {
-        name: "Become a sponsor!",
-        logoUrl: logoPlaceHolder.src,
-        url: "/sponsors/become-a-sponsor",
-        description:
-          "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
-      },
+      // {
+      //   name: "Become a sponsor!",
+      //   logoUrl: logoPlaceHolder.src,
+      //   url: "/sponsors/become-a-sponsor",
+      //   description:
+      //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+      // },
     ],
   },
   {

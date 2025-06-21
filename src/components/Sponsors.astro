@@ -4,36 +4,39 @@ import SponsorLogoAndModal from "@components/SponsorLogoAndModal.tsx";
 ---
 
 <div class="p-section">
-    <div class="row"><h2>Our Sponsors</h2></div>
-    {
-        sponsors.map((level) => (
-        <div class="p-section">
-                <div class="row">
-                    <hr class="p-rule" />
+  <div class="row"><h2>Our Sponsors</h2></div>
+  {
+    sponsors.map((level) => (
+      <div class="p-section">
+        <div class="row">
+          <hr class="p-rule" />
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <h3>{level.sponsorLevelName}</h3>
+          </div>
+          <div class="col-9">
+            <div class="row">
+              {level.list.map((item) => (
+                <div
+                  class={`col-${level.sizeOnLargeScreen} col-medium-${level.sizeOnMediumScreen} col-small-${level.sizeOnSmallScreen}`}
+                  style={{ paddingTop: 10, alignContent: "center" }}
+                >
+                  <SponsorLogoAndModal
+                    name={item.name}
+                    logoImageSrc={item.logoUrl}
+                    description={item.description}
+                    url={item.url}
+                    level={level.sponsorLevelName}
+                    showPopup={level.showPopup}
+                    client:only="react"
+                  />
                 </div>
-                <div class="row">
-                    <div class="col-3">
-                        <h3>{level.sponsorLevelName}</h3>
-                    </div>
-                    <div class="col-9">
-                        <div class="row">
-                            {level.list.map((item) => (
-                                <div class={`col-${level.sizeOnLargeScreen} col-medium-${level.sizeOnMediumScreen} col-small-${level.sizeOnSmallScreen}`}
-                                    style={{ paddingTop: 10, alignContent: "center" }}>
-                                    <SponsorLogoAndModal
-                                        name={item.name}
-                                        logoImageSrc={item.logoUrl}
-                                        description={item.description}
-                                        url={item.url}
-                                        level={level.sponsorLevelName}
-                                        showPopup={level.showPopup}
-                                        client:only="react" />
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
+              ))}
             </div>
-        ))
-    }
+          </div>
+        </div>
+      </div>
+    ))
+  }
 </div>
