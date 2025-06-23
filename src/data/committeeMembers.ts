@@ -64,19 +64,19 @@ export const committeeMembers = [
   },
   {
     name: "Aaditya Singh",
-    team: "Local team & GNOME Nepal",
-    role: "Local team chief + Steering, Sponsorship & Finances",
+    team: "Local team & Ubuntu Nepal",
+    role: "Local team chief + Steering",
     profileImageUrl: "https://avatars.githubusercontent.com/u/142494719?v=4",
   },
   {
     name: "Sailesh Singh",
-    team: "Local team & GNOME Nepal",
-    role: "Travel support",
+    team: "Local team & Ubuntu Nepal",
+    role: "Travel support & Accommodation", 
     profileImageUrl: "https://avatars.githubusercontent.com/u/58818777?v=4",
   },
   {
     name: "Utsav Bhattarai",
-    team: "Local team & GNOME Nepal",
+    team: "Local team & Ubuntu Nepal",
     role: "Web, Content",
     profileImageUrl: UtsavImage.src,
   },
@@ -89,19 +89,19 @@ export const committeeMembers = [
   {
     name: "Yush Pokharel",
     team: "Local team",
-    role: "Marketing & Design, Sponsorship & Finances",
+    role: "Marketing & Design",
     profileImageUrl: YushImage.src,
   },
   {
     name: "Roshan Pandey",
     team: "Local team",
-    role: "Web & Documentation, Logistics & Facility",
+    role: "Web & Documentation",
     profileImageUrl: RoshanImage.src,
   },
   {
     name: "Rupesh Nepal",
-    team: "Local team & GNOME Nepal",
-    role: "Registration & People Coordination, Content",
+    team: "Local team & Ubuntu Nepal",
+    role: "Registration & People Coordination",
     profileImageUrl: RupeshImage.src,
   },
   {
@@ -127,12 +127,6 @@ export const committeeMembers = [
     team: "Local team",
     role: "Sponsorship & Finances",
     profileImageUrl: FelixImage.src,
-  },
-  {
-    name: "Ja Raj Tuladhar",
-    team: "Local team",
-    role: "Sponsorship & Finances",
-    profileImageUrl: RajImage.src,
   },
   {
     name: "Sanjay Paudel",
