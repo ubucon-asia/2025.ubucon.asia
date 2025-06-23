@@ -7,6 +7,7 @@ import CSRI from "@assets/sponsors/community_partners/csri.png";
 import nosk from "@assets/sponsors/community_partners/nosk.png";
 import programiz from "@assets/sponsors/programiz.svg";
 import sxc from "@assets/sponsors/sxc.png"
+import DeepComputing from "@assets/sponsors/DeepComputing.svg";
 
 export const sponsors = [
   {
@@ -32,13 +33,13 @@ export const sponsors = [
     sizeOnSmallScreen: 3,
     showPopup: true,
     list: [
-      {
-        name: "Become a sponsor!",
-        logoUrl: logoPlaceHolder.src,
-        url: "/sponsors/become-a-sponsor",
-        description:
-          "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
-      },
+      // {
+      //   name: "Become a sponsor!",
+      //   logoUrl: logoPlaceHolder.src,
+      //   url: "/sponsors/become-a-sponsor",
+      //   description:
+      //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+      // },
     ],
   },
   {
@@ -48,13 +49,13 @@ export const sponsors = [
     sizeOnSmallScreen: 2,
     showPopup: true,
     list: [
-      {
-        name: "Become a sponsor!",
-        logoUrl: logoPlaceHolder.src,
-        url: "/sponsors/become-a-sponsor",
-        description:
-          "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
-      },
+      // {
+      //   name: "Become a sponsor!",
+      //   logoUrl: logoPlaceHolder.src,
+      //   url: "/sponsors/become-a-sponsor",
+      //   description:
+      //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+      // },
     ],
   },
   {
@@ -71,6 +72,15 @@ export const sponsors = [
         description:
           "ONLYOFFICE, developed by Ascensio System SIA, is a robust office suite featuring online editors for documents, spreadsheets, and presentations, with strong compatibility with both Microsoft Office and OpenDocument file formats.",
       },
+      {
+        name: "DeepComputing",
+        logoUrl: DeepComputing.src,
+        url: "https://www.deepcomputing.io/",
+        description: 
+        `Formed in 2022 by a group of dedicated RISC-V pioneers, DeepComputing is headquartered in Hong Kong. We share an enduring passion for advancing the adoption and implementation of RISC-V beyond existing ISA chipsets. 
+        Our aim is to create bold new products. With faith in our diverse and dedicated partners, we believe in the promising new future of RISC-V. 
+        Together, we will focus on driving the development of the RISC-V ecosystem with products such as laptops, pads, workstations, headphones, smart watches, smart speakers, AR glasses and autonomous driving for toys and real world vehicles.`
+      }
     ],
   },
   {
@@ -80,13 +90,13 @@ export const sponsors = [
     sizeOnSmallScreen: 1,
     showPopup: true,
     list: [
-      {
-        name: "Become a sponsor!",
-        logoUrl: logoPlaceHolder.src,
-        url: "/sponsors/become-a-sponsor",
-        description:
-          "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
-      },
+      // {
+      //   name: "Become a sponsor!",
+      //   logoUrl: logoPlaceHolder.src,
+      //   url: "/sponsors/become-a-sponsor",
+      //   description:
+      //     "This sponsor slot is currently empty and available! Would like to support our event and become our sponsor? Click 'Visit website' button to join us today!",
+      // },
     ],
   },
   {
