@@ -8,6 +8,7 @@ import nosk from "@assets/sponsors/community_partners/nosk.png";
 import programiz from "@assets/sponsors/programiz.svg";
 import sxc from "@assets/sponsors/sxc.png"
 import DeepComputing from "@assets/sponsors/DeepComputing.svg";
+import Logpoint from "@assets/sponsors/logpoint.svg";
 
 export const sponsors = [
   {
@@ -80,6 +81,14 @@ export const sponsors = [
         `Formed in 2022 by a group of dedicated RISC-V pioneers, DeepComputing is headquartered in Hong Kong. We share an enduring passion for advancing the adoption and implementation of RISC-V beyond existing ISA chipsets. 
         Our aim is to create bold new products. With faith in our diverse and dedicated partners, we believe in the promising new future of RISC-V. 
         Together, we will focus on driving the development of the RISC-V ecosystem with products such as laptops, pads, workstations, headphones, smart watches, smart speakers, AR glasses and autonomous driving for toys and real world vehicles.`
+      },
+      {
+        name: "Logpoint",
+        logoUrl: Logpoint.src,
+        url: "https://www.logpoint.com/",
+        description: 
+        `Logpoint Nepal Pvt. Ltd., a leading global cybersecurity company specializing in Security
+        Information and Event Management (SIEM), Security Operations (SecOps), and advanced analytics solutions,`
       }
     ],
   },
