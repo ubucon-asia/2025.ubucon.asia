@@ -3,6 +3,13 @@ import { sponsors } from "@data/sponsors";
 import SponsorLogoAndModal from "@components/SponsorLogoAndModal.tsx";
 ---
 
+<style>
+  .sponsor-grid {
+    
+  }
+
+</style>
+
 <div class="p-section">
   <div class="row"><h2>Our Sponsors</h2></div>
   {
@@ -16,11 +23,11 @@ import SponsorLogoAndModal from "@components/SponsorLogoAndModal.tsx";
             <h3>{level.sponsorLevelName}</h3>
           </div>
           <div class="col-9">
-            <div class="row">
+            <div class="row sponsor-grid">
               {level.list.map((item) => (
                 <div
                   class={`col-${level.sizeOnLargeScreen} col-medium-${level.sizeOnMediumScreen} col-small-${level.sizeOnSmallScreen}`}
-                  style={{ paddingTop: 10, alignContent: "center" }}
+                  style={{ alignContent: "center" }}
                 >
                   <SponsorLogoAndModal
                     name={item.name}
