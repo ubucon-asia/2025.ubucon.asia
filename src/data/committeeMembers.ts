@@ -4,14 +4,19 @@ import RoshanImage from "@assets/localteam/roshan.jpg";
 import RupeshImage from "@assets/localteam/rupesh.jpg";
 import UtsavImage from "@assets/localteam/utsav.jpg";
 import BadalImage from "@assets/localteam/badal.jpg";
-import JamesImage from "@assets/localteam/james.jpg";
 import RabinaImage from "@assets/localteam/rabina.jpg";
 import BibhushanImage from "@assets/localteam/bibhushan.jpg";
 import AshutoshImage from "@assets/localteam/ashutosh.jpg";
 import FelixImage from "@assets/localteam/felix.jpg";
-import RajImage from "@assets/localteam/raj.jpg";
-import shashwotImage from "@assets/localteam/shashwot.jpg";
 import sanjayImage from "@assets/localteam/sanjay.jpg";
+import ujashanaImage from "@assets/localteam/ujashna.png";
+import aayushaImage from "@assets/localteam/aayusha.png";
+import prabeshImage from "@assets/localteam/prabesh.png";
+import shashiImage from "@assets/localteam/shashi.png";
+import aakashImage from "@assets/localteam/aakash.png";
+import kripaImage from "@assets/localteam/kripa.png";
+import shraddhaImage from "@assets/localteam/shraddha.png";
+import prasubhaImage from "@assets/localteam/prasubha.png";
 
 export const committeeMembers = [
   {
@@ -71,7 +76,7 @@ export const committeeMembers = [
   {
     name: "Sailesh Singh",
     team: "Local team & Ubuntu Nepal",
-    role: "Travel support & Accommodation", 
+    role: "Travel support & Accommodation",
     profileImageUrl: "https://avatars.githubusercontent.com/u/58818777?v=4",
   },
   {
@@ -131,7 +136,55 @@ export const committeeMembers = [
   {
     name: "Sanjay Paudel",
     team: "Local team",
-    role:"Local Mentoring & Support",
-    profileImageUrl:sanjayImage.src,
+    role: "Local Mentoring & Support",
+    profileImageUrl: sanjayImage.src,
+  },
+  {
+    name: "Ujashna Dangol",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: ujashanaImage.src,
+  },
+  {
+    name: "Shraddha Tiwari",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: shraddhaImage.src,
+  },
+  {
+    name: "Kripa Khanal",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: kripaImage.src,
+  },
+  {
+    name: "Prasubha Pathak",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: prasubhaImage.src,
+  },
+  {
+    name: "Aayusha Pradhananga",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: aayushaImage.src,
+  },
+  {
+    name: "Prabesh Pant",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: prabeshImage.src,
+  },
+  {
+    name: "Shashi baranwal",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: shashiImage.src,
+  },
+  {
+    name: "Aakash Rana",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: aakashImage.src,
   },
 ];

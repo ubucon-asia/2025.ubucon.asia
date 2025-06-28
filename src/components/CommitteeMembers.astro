@@ -3,27 +3,32 @@ import { committeeMembers } from "@data/committeeMembers";
 import TeamCard from "./TeamCard.astro";
 
 const teams = {
-    "Global Team": committeeMembers.filter((member) =>
-        member.team.includes("Global team")
-    ),
-    "Local Team": committeeMembers.filter((member) =>
-        member.team.includes("Local team")
-    ),
+  "Global Organizers": committeeMembers.filter((member) =>
+    member.team.includes("Global team")
+  ),
+  "Local Organizers": committeeMembers.filter((member) =>
+    member.team.includes("Local team")
+  ),
+  "Local Team Members": committeeMembers.filter((member) =>
+    member.team.includes("Volunteer")
+  ),
 };
 ---
 
-{Object.entries(teams).map(([teamName, members]) => (
+{
+  Object.entries(teams).map(([teamName, members]) => (
     <>
-        <h3>{teamName}</h3>
-        <div class="row">
-            {members.map((member) => (
-                <TeamCard
-                    img={member.profileImageUrl}
-                    name={member.name}
-                    team={member.team}
-                    role={member.role}
-                />
-            ))}
-        </div>
+      <h3>{teamName}</h3>
+      <div class="row">
+        {members.map((member) => (
+          <TeamCard
+            img={member.profileImageUrl}
+            name={member.name}
+            team={member.team}
+            role={member.role}
+          />
+        ))}
+      </div>
     </>
-))}
+  ))
+}
