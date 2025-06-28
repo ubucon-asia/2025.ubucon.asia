@@ -87,8 +87,7 @@ export const sponsors = [
         logoUrl: Logpoint.src,
         url: "https://www.logpoint.com/",
         description: 
-        `Logpoint Nepal Pvt. Ltd., a leading global cybersecurity company specializing in Security
-        Information and Event Management (SIEM), Security Operations (SecOps), and advanced analytics solutions,`
+        `Logpoint Nepal Pvt. Ltd., a leading global cybersecurity company specializing in Security Information and Event Management (SIEM), Security Operations (SecOps), and advanced analytics solutions.`
       }
     ],
   },
@@ -148,7 +147,7 @@ export const sponsors = [
     showPopup: true,
     list: [
       {
-        name: "Become a sponsor!",
+        name: "Annapurna Media Network",
         logoUrl: annapurna.src,
         url: "https://amnnepal.com/",
         description:
