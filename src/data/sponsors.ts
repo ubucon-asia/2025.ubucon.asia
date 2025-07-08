@@ -9,6 +9,7 @@ import programiz from "@assets/sponsors/programiz.svg";
 import sxc from "@assets/sponsors/sxc.png"
 import DeepComputing from "@assets/sponsors/DeepComputing.svg";
 import Logpoint from "@assets/sponsors/logpoint.svg";
+import ThingsCyber from "@assets/exhibitors/things_cyber.png"
 
 export const sponsors = [
   {
@@ -77,18 +78,16 @@ export const sponsors = [
         name: "DeepComputing",
         logoUrl: DeepComputing.src,
         url: "https://www.deepcomputing.io/",
-        description: 
-        `Formed in 2022 by a group of dedicated RISC-V pioneers, DeepComputing is headquartered in Hong Kong. We share an enduring passion for advancing the adoption and implementation of RISC-V beyond existing ISA chipsets. 
+        description: `Formed in 2022 by a group of dedicated RISC-V pioneers, DeepComputing is headquartered in Hong Kong. We share an enduring passion for advancing the adoption and implementation of RISC-V beyond existing ISA chipsets. 
         Our aim is to create bold new products. With faith in our diverse and dedicated partners, we believe in the promising new future of RISC-V. 
-        Together, we will focus on driving the development of the RISC-V ecosystem with products such as laptops, pads, workstations, headphones, smart watches, smart speakers, AR glasses and autonomous driving for toys and real world vehicles.`
+        Together, we will focus on driving the development of the RISC-V ecosystem with products such as laptops, pads, workstations, headphones, smart watches, smart speakers, AR glasses and autonomous driving for toys and real world vehicles.`,
       },
       {
         name: "Logpoint",
         logoUrl: Logpoint.src,
         url: "https://www.logpoint.com/",
-        description: 
-        `Logpoint Nepal Pvt. Ltd., a leading global cybersecurity company specializing in Security Information and Event Management (SIEM), Security Operations (SecOps), and advanced analytics solutions.`
-      }
+        description: `Logpoint Nepal Pvt. Ltd., a leading global cybersecurity company specializing in Security Information and Event Management (SIEM), Security Operations (SecOps), and advanced analytics solutions.`,
+      },
     ],
   },
   // {
@@ -136,6 +135,22 @@ export const sponsors = [
         url: "https://www.programiz.com/",
         description:
           "Programiz is a learning platform by Parewa Labs that helps beginners easily learn programming through interactive tutorials, coding challenges, and real-world projects. Covering languages like Python, C, C++, Java and many more. It serves over 10 million learners globally through its website, mobile apps, and Programiz PRO subscription.",
+      },
+    ],
+  },
+  {
+    sponsorLevelName: "Exhibitor",
+    sizeOnLargeScreen: 2,
+    sizeOnMediumScreen: 2,
+    sizeOnSmallScreen: 1,
+    showPopup: true,
+    list: [
+      {
+        name: "Things Cyber",
+        logoUrl: ThingsCyber.src,
+        url: "https://thingscyber.com.np/",
+        description:
+          "Things Cyber is a Kathmandu-based cybersecurity company offering AI-powered IT consulting, cloud services, and automated employee training to reduce security risks and enhance threat defense.",
       },
     ],
   },
