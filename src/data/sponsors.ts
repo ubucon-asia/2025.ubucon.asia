@@ -1,4 +1,3 @@
-import logoPlaceHolder from "@assets/logo_placeholder.svg";
 import annapurna from "@assets/sponsors/annapurna.png";
 import global_cyber from "@assets/sponsors/community_partners/Global_Cybersecurity_Community.png";
 import Canonical from "@assets/sponsors/Canonical_Ubuntu.svg";
@@ -77,18 +76,16 @@ export const sponsors = [
         name: "DeepComputing",
         logoUrl: DeepComputing.src,
         url: "https://www.deepcomputing.io/",
-        description: 
-        `Formed in 2022 by a group of dedicated RISC-V pioneers, DeepComputing is headquartered in Hong Kong. We share an enduring passion for advancing the adoption and implementation of RISC-V beyond existing ISA chipsets. 
+        description: `Formed in 2022 by a group of dedicated RISC-V pioneers, DeepComputing is headquartered in Hong Kong. We share an enduring passion for advancing the adoption and implementation of RISC-V beyond existing ISA chipsets. 
         Our aim is to create bold new products. With faith in our diverse and dedicated partners, we believe in the promising new future of RISC-V. 
-        Together, we will focus on driving the development of the RISC-V ecosystem with products such as laptops, pads, workstations, headphones, smart watches, smart speakers, AR glasses and autonomous driving for toys and real world vehicles.`
+        Together, we will focus on driving the development of the RISC-V ecosystem with products such as laptops, pads, workstations, headphones, smart watches, smart speakers, AR glasses and autonomous driving for toys and real world vehicles.`,
       },
       {
         name: "Logpoint",
         logoUrl: Logpoint.src,
         url: "https://www.logpoint.com/",
-        description: 
-        `Logpoint Nepal Pvt. Ltd., a leading global cybersecurity company specializing in Security Information and Event Management (SIEM), Security Operations (SecOps), and advanced analytics solutions.`
-      }
+        description: `Logpoint Nepal Pvt. Ltd., a leading global cybersecurity company specializing in Security Information and Event Management (SIEM), Security Operations (SecOps), and advanced analytics solutions.`,
+      },
     ],
   },
   // {

@@ -40,6 +40,12 @@ You may also see list of booth [here](https://events.canonical.com/event/127/con
         <a href={item.href} target="_blank">
         <button class="p-button has-icon"><span>Learn more</span><i class="p-icon--external-link"></i></button>
         </a>
+        {
+        item.websiteUrl &&  <a href={item.websiteUrl} target="_blank">
+        <button class="p-button has-icon"><span>Visit Website</span><i class="p-icon--external-link"></i></button>
+        </a>
+        }
+       
     </p>
   </div>
 ))}
