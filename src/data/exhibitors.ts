@@ -35,5 +35,6 @@ export const exhibitors = [
     title: "Things Cyber Booth",
     imgSrc: ThingsCyber.src,
     href: "https://events.canonical.com/event/127/contributions/716/",
+    websiteUrl: "https://thingscyber.com.np/",
   },
 ];

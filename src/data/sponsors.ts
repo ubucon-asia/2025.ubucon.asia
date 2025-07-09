@@ -1,4 +1,3 @@
-import logoPlaceHolder from "@assets/logo_placeholder.svg";
 import annapurna from "@assets/sponsors/annapurna.png";
 import global_cyber from "@assets/sponsors/community_partners/Global_Cybersecurity_Community.png";
 import Canonical from "@assets/sponsors/Canonical_Ubuntu.svg";
@@ -9,7 +8,6 @@ import programiz from "@assets/sponsors/programiz.svg";
 import sxc from "@assets/sponsors/sxc.png"
 import DeepComputing from "@assets/sponsors/DeepComputing.svg";
 import Logpoint from "@assets/sponsors/logpoint.svg";
-import ThingsCyber from "@assets/exhibitors/things_cyber.png"
 
 export const sponsors = [
   {
@@ -135,22 +133,6 @@ export const sponsors = [
         url: "https://www.programiz.com/",
         description:
           "Programiz is a learning platform by Parewa Labs that helps beginners easily learn programming through interactive tutorials, coding challenges, and real-world projects. Covering languages like Python, C, C++, Java and many more. It serves over 10 million learners globally through its website, mobile apps, and Programiz PRO subscription.",
-      },
-    ],
-  },
-  {
-    sponsorLevelName: "Exhibitor",
-    sizeOnLargeScreen: 2,
-    sizeOnMediumScreen: 2,
-    sizeOnSmallScreen: 1,
-    showPopup: true,
-    list: [
-      {
-        name: "Things Cyber",
-        logoUrl: ThingsCyber.src,
-        url: "https://thingscyber.com.np/",
-        description:
-          "Things Cyber is a Kathmandu-based cybersecurity company offering AI-powered IT consulting, cloud services, and automated employee training to reduce security risks and enhance threat defense.",
       },
     ],
   },
