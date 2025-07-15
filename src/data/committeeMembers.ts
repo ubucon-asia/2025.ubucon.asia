@@ -1,4 +1,3 @@
-import UcaLogo from "@assets/logo.svg";
 import YushImage from "@assets/localteam/yush.jpg";
 import RoshanImage from "@assets/localteam/roshan.jpg";
 import RupeshImage from "@assets/localteam/rupesh.jpg";
@@ -17,6 +16,7 @@ import aakashImage from "@assets/localteam/aakash.png";
 import kripaImage from "@assets/localteam/kripa.png";
 import shraddhaImage from "@assets/localteam/shraddha.png";
 import prasubhaImage from "@assets/localteam/prasubha.png";
+import rajanImage from "@assets/localteam/rajan.jpg";
 
 export const committeeMembers = [
   {
@@ -138,6 +138,12 @@ export const committeeMembers = [
     team: "Local team",
     role: "Local Mentoring & Support",
     profileImageUrl: sanjayImage.src,
+  },
+  {
+    name: "Rajan Karmacharya",
+    team: "Local team",
+    role: "Local Mentoring & Support",
+    profileImageUrl: rajanImage.src,
   },
   {
     name: "Ujashna Dangol",
