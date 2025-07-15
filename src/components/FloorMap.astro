@@ -1,0 +1,71 @@
+---
+import { VenueFloorMaps } from "../config.js";
+---
+
+<div class="floor-maps">
+  <div class="floor-maps-container">
+    {
+      VenueFloorMaps.map((floor) => (
+        <div
+          class="floor-thumb"
+          data-full-src={floor.image}
+          data-caption={floor.alt}
+        >
+          <img src={floor.image} alt={floor.alt} />
+          <p>{floor.floor}</p>
+        </div>
+      ))
+    }
+  </div>
+</div>
+
+<div id="floorModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="modalImage" src="" alt="" />
+    <div id="modalCaption"></div>
+  </div>
+</div>
+
+<script is:inline>
+  function initFloorMaps() {
+    const thumbs = document.querySelectorAll(".floor-thumb");
+    const modal = document.getElementById("floorModal");
+    const modalImage = document.getElementById("modalImage");
+    const modalCaption = document.getElementById("modalCaption");
+    const closeBtn = document.querySelector(".close");
+
+    if (!modal || !modalImage || !modalCaption || !closeBtn) return;
+
+    thumbs.forEach((thumb) => {
+      thumb.addEventListener("click", function () {
+        const fullSrc = this.getAttribute("data-full-src");
+        const caption = this.getAttribute("data-caption");
+
+        modal.style.display = "block";
+        modalImage.src = fullSrc;
+        modalCaption.innerHTML = caption;
+      });
+    });
+
+    closeBtn.addEventListener("click", function () {
+      modal.style.display = "none";
+    });
+
+    window.addEventListener("click", function (event) {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initFloorMaps);
+  } else {
+    initFloorMaps();
+  }
+</script>
+
+<style>
+  @import "../styles/venue-floor-maps.css";
+</style>
