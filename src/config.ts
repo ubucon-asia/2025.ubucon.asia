@@ -1,6 +1,9 @@
 import UCALogo from './assets/logo.svg'
 import PashupatinathTempleImage from '@assets/pashupatinath_temple.jpg'
 import UbuConAsiaCommitteeLogo from "@assets/UbuConAsiaCommittee.svg"
+import Floor4 from "@assets/floor-map/4.png"
+import Floor6 from "@assets/floor-map/6.png";
+import GroundFloor from "@assets/floor-map/g.png";
 import OSCollectiveLogo from "@assets/oscollective.webp";
 import GNOMENepal from "@assets/gnomenepal.svg";
 import PreviewImage from "@assets/ogimage.png";
@@ -221,3 +224,23 @@ export const WebsiteConfig = {
     eventbriteSlug: "ubucon-asia-2025-tickets-1311936359969",
   },
 };
+
+
+
+export const VenueFloorMaps = [
+  {
+    floor:"4th Floor",
+    image: Floor4.src,
+    alt: "4th Floor Map",
+  },
+  {
+    floor:"6th Floor",
+    image:Floor6.src,
+    alt: "6th Floor Map",
+  },
+  {
+    floor:"Ground Floor",
+    image:GroundFloor.src,
+    alt: "Ground Floor Map",
+  }
+]
