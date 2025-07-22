@@ -1,19 +1,20 @@
-import UCALogo from './assets/logo.svg'
-import PashupatinathTempleImage from '@assets/pashupatinath_temple.jpg'
-import UbuConAsiaCommitteeLogo from "@assets/UbuConAsiaCommittee.svg"
-import Floor4 from "@assets/floor-map/4.png"
+import UCALogo from "./assets/logo.svg";
+import PashupatinathTempleImage from "@assets/pashupatinath_temple.jpg";
+import UbuConAsiaCommitteeLogo from "@assets/UbuConAsiaCommittee.svg";
+import Floor4 from "@assets/floor-map/4.png";
 import Floor6 from "@assets/floor-map/6.png";
 import GroundFloor from "@assets/floor-map/g.png";
 import OSCollectiveLogo from "@assets/oscollective.webp";
 import GNOMENepal from "@assets/gnomenepal.svg";
 import PreviewImage from "@assets/ogimage.png";
 import UbuntuNepal from "@assets/ubuntu_nepal.png";
-import CfpPromoImage from "@assets/uca25cfp_promo.jpg"
+import CfpPromoImage from "@assets/uca25cfp_promo.jpg";
 import impact_nexus from "@assets/sponsors/impact_nexus_nepal.png";
 
+
 export interface SubMenuItem {
-    link: string;
-    label: string;
+  link: string;
+  label: string;
 }
 
 export const WebsiteConfig = {
@@ -193,19 +194,19 @@ export const WebsiteConfig = {
     logo: UCALogo,
   },
   featuredSpeakers: {
-    displayOnMainPage: false,
+    displayOnMainPage: true,
     indicoExportUrl:
-      "https://events.canonical.com/export/event/47.json?detail=contributions&occ=yes&pretty=yes",
-    contributionIds: [20, 46, 43, 34, 19],
+      "https://events.canonical.com/export/event/127.json?detail=contributions&occ=yes&pretty=yes",
+    contributionIds: [26,30, 68, 16, 13, 37],
     speakerIds: [
-      { db_id: 522, user: 107 },
-      { db_id: 517, user: 166 },
-      { db_id: 494, user: 615 },
-      { db_id: 515, user: 628 },
-      { db_id: 516, user: 271 },
-      { db_id: 487, user: 3 },
+      { db_id: 921, user: 914 },
+      { db_id: 950, user: 912 },
+      { db_id: 963, user: 942 },
+      { db_id: 925, user: 929 },
+      { db_id: 928, user: 931 },
+      { db_id: 964, user: 974 },
     ],
-    fullSchedulesUrl: "https://events.canonical.com/event/47/contributions/",
+    fullSchedulesUrl: "",
   },
   cityBanner: {
     cityImage: PashupatinathTempleImage.src,
@@ -225,22 +226,21 @@ export const WebsiteConfig = {
   },
 };
 
-
-
 export const VenueFloorMaps = [
   {
-    floor:"4th Floor",
+    floor: "4th Floor",
     image: Floor4.src,
     alt: "4th Floor Map",
   },
   {
-    floor:"6th Floor",
-    image:Floor6.src,
+    floor: "6th Floor",
+    image: Floor6.src,
     alt: "6th Floor Map",
   },
   {
-    floor:"Ground Floor",
-    image:GroundFloor.src,
+    floor: "Ground Floor",
+    image: GroundFloor.src,
     alt: "Ground Floor Map",
-  }
-]
+  },
+];
+
