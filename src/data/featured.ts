@@ -1,25 +1,56 @@
-
-import speaker489 from "@assets/speaker_picture/489.png";
-import speaker478 from "@assets/speaker_picture/478.jpeg";
-import speaker504 from "@assets/speaker_picture/504.jpeg";
-import speaker500 from "@assets/speaker_picture/500.png";
-import speaker532 from "@assets/speaker_picture/532.png";
-import speaker527 from "@assets/speaker_picture/527.png";
-
-export const featuredSessionIds = [
-   371, 390, 397, 392, 374
+import velascoImg from "@assets/speakers/velasco.png";
+import yuningImg from "@assets/speakers/yuning.png";
+import mauroImg from "@assets/speakers/mauro.png";
+import frankImg from "@assets/speakers/frank.png";
+import dimpleImg from "@assets/speakers/dimple.png";
+import bikalpaImg from "@assets/speakers/bikalpa.png";
+import andreeaImg from "@assets/speakers/andreea.png";
+import aadityaImg from "@assets/speakers/aaditya.png";
+import saileshImg from "@assets/speakers/sailesh.png";
+export const extraDetails = [
+  {
+    name: "Andreia Velasco",
+    title: "Technical Author at Canonical Data Platform",
+    image: velascoImg.src,
+  },
+  {
+    name: "Bikalpa Dhakal",
+    title: "Software Engineer at Canonical",
+    image: bikalpaImg.src,
+  },
+  {
+    name: "Dimple Kuriakose",
+    title: "Technical Author at Canonical",
+    image: dimpleImg.src,
+  },
+  {
+    name: "Mauro Gaspari",
+    title: "Community Engineer at Canonical",
+    image: mauroImg.src,
+  },
+  {
+    name: "Andreea Munteanu",
+    title: "AI/ML Manager at Canonical",
+    image: andreeaImg.src,
+  },
+  {
+    name: "Yuning Liang",
+    title: "Founder at DeepComputing",
+    image: yuningImg.src,
+  },
+  {
+    name: "Frank Karlitschek",
+    title: "Founder and CEO of Nextcloud",
+    image: frankImg.src,
+  },
+  {
+    name: "Aaditya Singh",
+    title: "Community Lead GNOME Nepal & Ubuntu Nepal",
+    image: aadityaImg.src,
+  },
+  {
+    name: "Sailesh Singh",
+    title: "System Network Administrator",
+    image: saileshImg.src,
+  },
 ];
-export const sessionListApiUrl = "https://events.canonical.com/export/event/47.json?detail=contributions&pretty=yes:";
-export const sessionListUrl = "https://events.canonical.com/event/47/contributions/";
-interface ImageMapType {
-    [key: string]: ImageMetadata
-  };
-
-export const speakerPersonIdPictureMap: ImageMapType = {
-    k489: speaker489,
-    k478: speaker478,
-    k504: speaker504,
-    k500: speaker500,
-    k532: speaker532,
-    k527: speaker527
-}
