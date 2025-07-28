@@ -57,7 +57,7 @@ for (const session of featuredSessions) {
         <div class="row">
           <h2>Featured speakers</h2>
           {featuredSpeakers.map((speaker) => (
-            <div class="col-4 col-medium-3">
+            <a href={speaker.url} target="_blank" class="col-4 col-medium-3">
               <div class="p-media-object--large p-button--base">
                 <img
                   src={speaker.profileImg}
@@ -72,7 +72,7 @@ for (const session of featuredSessions) {
                   <ul class="p-media-object__meta-list" />
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
         <div class="row">
