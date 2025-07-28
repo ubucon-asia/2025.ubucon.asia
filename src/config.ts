@@ -197,12 +197,13 @@ export const WebsiteConfig = {
     displayOnMainPage: true,
     indicoExportUrl:
       "https://events.canonical.com/export/event/127.json?detail=contributions&occ=yes&pretty=yes",
-    contributionIds: [26,30, 68, 16, 13, 37],
+    contributionIds: [26, 30, 68, 16, 13, 37],
     speakerIds: [
       { db_id: 921, user: 914 },
       { db_id: 950, user: 912 },
       { db_id: 963, user: 942 },
       { db_id: 925, user: 929 },
+      { db_id: 926, user: 928 },
       { db_id: 928, user: 931 },
       { db_id: 964, user: 974 },
     ],
