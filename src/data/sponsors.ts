@@ -8,6 +8,7 @@ import programiz from "@assets/sponsors/programiz.svg";
 import sxc from "@assets/sponsors/sxc.png"
 import DeepComputing from "@assets/sponsors/DeepComputing.svg";
 import Logpoint from "@assets/sponsors/logpoint.svg";
+import nic from "@assets/sponsors/community_partners/nic.png";
 
 export const sponsors = [
   {
@@ -160,6 +161,12 @@ export const sponsors = [
     showPopup: false,
     list: [
       {
+        name: "National Innocation Center",
+        logoUrl: nic.src,
+        url: "",
+        description: "",
+      },
+      {
         name: "Center for Cyber Security Research and Innovation",
         logoUrl: CSRI.src,
         url: "",
@@ -176,7 +183,7 @@ export const sponsors = [
         logoUrl: nosk.src,
         url: "",
         description: "",
-      },
+      }
     ],
   },
 ];
