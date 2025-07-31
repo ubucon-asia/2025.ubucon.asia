@@ -2,6 +2,7 @@
 import Shell from '../layouts/Shell.astro';
 import MainBanner from '@components/MainBanner.astro';
 import FeaturedSpeakers from '@components/FeaturedSpeakers.astro';
+import OtherSpeakers from '@components/OtherSpeakers.astro';
 import Sponsors from '@components/Sponsors.astro';
 import BlogFeed from '@components/BlogFeed.astro';
 import { WebsiteConfig } from '../config';
@@ -31,6 +32,7 @@ import { WebsiteConfig } from '../config';
 			</div>
 		</section>
 	{WebsiteConfig.featuredSpeakers.displayOnMainPage ? (<FeaturedSpeakers/>):(<></>)}
+    {WebsiteConfig.otherSpeakers.displayOnMainPage ? (<OtherSpeakers/>):(<></>)}
 	<div class="p-section">
 		<div class="row--50-50-on-large">
 		<hr>
