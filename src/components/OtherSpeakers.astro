@@ -20,7 +20,6 @@ for (const session of otherSessions) {
     const imgId = WebsiteConfig.otherSpeakers.speakerIds.find(
       (user) => speaker.db_id === user.db_id
     );
-    console.log(imgId);
     if (!imgId) continue;
     const details = extraDetails.find(
       (d) =>
@@ -51,7 +50,7 @@ otherSpeakers.sort((a, b) => {
         <div class="row">
           <h2>Other speakers</h2>
           {otherSpeakers.map((speaker) => (
-            <div class="col-4 col-medium-3">
+            <a href={speaker.url} target="_blank" class="col-4 col-medium-3">
               <div class="wrapper p-media-object--large p-button--base">
                 <img
                   src={speaker.profileImg}
@@ -64,7 +63,7 @@ otherSpeakers.sort((a, b) => {
                   <h3>{speaker.name}</h3>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

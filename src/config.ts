@@ -208,7 +208,7 @@ export const WebsiteConfig = {
       { db_id: 943, user: 902 },
       { db_id: 944, user: 970 },
     ],
-    fullSchedulesUrl: "",
+    fullSchedulesUrl: "ddd",
   },
   otherSpeakers: {
     displayOnMainPage: true,
