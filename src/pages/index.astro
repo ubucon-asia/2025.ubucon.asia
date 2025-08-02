@@ -2,6 +2,7 @@
 import Shell from '../layouts/Shell.astro';
 import MainBanner from '@components/MainBanner.astro';
 import FeaturedSpeakers from '@components/FeaturedSpeakers.astro';
+import OtherSpeakers from '@components/OtherSpeakers.astro';
 import Sponsors from '@components/Sponsors.astro';
 import BlogFeed from '@components/BlogFeed.astro';
 import { WebsiteConfig } from '../config';
@@ -31,6 +32,9 @@ import { WebsiteConfig } from '../config';
 			</div>
 		</section>
 	{WebsiteConfig.featuredSpeakers.displayOnMainPage ? (<FeaturedSpeakers/>):(<></>)}
+    <div id="other-speakers-container" class="speakers-accordion" style="display: none;">
+        {WebsiteConfig.otherSpeakers.displayOnMainPage ? (<OtherSpeakers/>):(<></>)}
+    </div>
 	<div class="p-section">
 		<div class="row--50-50-on-large">
 		<hr>
@@ -71,4 +75,46 @@ import { WebsiteConfig } from '../config';
 	<BlogFeed/>
 	<Sponsors/>
 </Shell>
+
+<script>
+  // Accordion functionality for speakers section
+  document.addEventListener('DOMContentLoaded', function() {
+    const seeAllSpeakersBtn = document.getElementById('see-all-speakers-btn');
+    const otherSpeakersContainer = document.getElementById('other-speakers-container');
+    
+    if (seeAllSpeakersBtn && otherSpeakersContainer) {
+      seeAllSpeakersBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        if (otherSpeakersContainer.style.display === 'none') {
+          otherSpeakersContainer.style.display = 'block';
+          otherSpeakersContainer.style.opacity = '0';
+          
+          setTimeout(() => {
+            otherSpeakersContainer.style.transition = 'opacity 0.3s ease-in-out';
+            otherSpeakersContainer.style.opacity = '1';
+          }, 10);
+          
+          otherSpeakersContainer.scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'start' 
+          });
+        } else {
+          otherSpeakersContainer.style.transition = 'opacity 0.3s ease-in-out';
+          otherSpeakersContainer.style.opacity = '0';
+          
+          setTimeout(() => {
+            otherSpeakersContainer.style.display = 'none';
+          }, 300);
+        }
+      });
+    }
+  });
+</script>
+
+<style>
+  .speakers-accordion {
+    transition: opacity 0.3s ease-in-out;
+  }
+</style>
 

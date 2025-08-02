@@ -11,7 +11,6 @@ import UbuntuNepal from "@assets/ubuntu_nepal.png";
 import CfpPromoImage from "@assets/uca25cfp_promo.jpg";
 import impact_nexus from "@assets/sponsors/impact_nexus_nepal.png";
 
-
 export interface SubMenuItem {
   link: string;
   label: string;
@@ -197,7 +196,7 @@ export const WebsiteConfig = {
     displayOnMainPage: true,
     indicoExportUrl:
       "https://events.canonical.com/export/event/127.json?detail=contributions&occ=yes&pretty=yes",
-    contributionIds: [26, 30, 68, 16, 13, 37],
+    contributionIds: [26, 30, 68, 16, 13, 37, 61],
     speakerIds: [
       { db_id: 921, user: 914 },
       { db_id: 950, user: 912 },
@@ -206,6 +205,44 @@ export const WebsiteConfig = {
       { db_id: 926, user: 928 },
       { db_id: 928, user: 931 },
       { db_id: 964, user: 974 },
+      { db_id: 943, user: 902 },
+      { db_id: 944, user: 970 },
+    ],
+    fullSchedulesUrl: "ddd",
+  },
+  otherSpeakers: {
+    displayOnMainPage: true,
+    indicoExportUrl:
+      "https://events.canonical.com/export/event/127.json?detail=contributions&occ=yes&pretty=yes",
+    contributionIds: [
+      19, 21, 43, 71, 12, 6, 1, 31, 64, 22, 59, 40, 38, 32, 10, 34, 11, 36, 41,
+      46, 18,
+    ],
+    speakerIds: [
+      { db_id: 923, user: 917 },
+      { db_id: 949, user: 923 },
+      { db_id: 918, user: 895 },
+      { db_id: 959, user: 896 },
+      { db_id: 956, user: 904 },
+      { db_id: 929, user: 932 },
+      { db_id: 942, user: 969 },
+      { db_id: 954, user: 924 },
+      { db_id: 934, user: 898 },
+      { db_id: 930, user: 947 },
+      { db_id: 935, user: 943 },
+      { db_id: 936, user: 944 },
+      { db_id: 955, user: 909 },
+      { db_id: 966, user: 910 },
+      { db_id: 931, user: 900 },
+      { db_id: 937, user: 953 },
+      { db_id: 920, user: 911 },
+      { db_id: 957, user: 956 },
+      { db_id: 958, user: 919 },
+      { db_id: 932, user: 950 },
+      { db_id: 939, user: 934 },
+      { db_id: 946, user: 938 },
+      { db_id: 953, user: 948 },
+      { db_id: 937, user: 953 },
     ],
     fullSchedulesUrl: "",
   },
@@ -244,4 +281,3 @@ export const VenueFloorMaps = [
     alt: "Ground Floor Map",
   },
 ];
-

@@ -1,33 +1,23 @@
 ---
 import { WebsiteConfig } from "../config";
 import eventLogo from "@assets/logo.svg";
-import { extraDetails } from "../data/featured";
+import { extraDetails } from "../data/otherSpeaker";
 
-const indicoResponse = await fetch(
-  WebsiteConfig.featuredSpeakers.indicoExportUrl
-);
+const indicoResponse = await fetch(WebsiteConfig.otherSpeakers.indicoExportUrl);
 const indicoResJson = await indicoResponse.json();
 const sessions = indicoResJson.results
   ? indicoResJson.results[0].contributions
   : null;
 
-const featuredSessions = WebsiteConfig.featuredSpeakers.contributionIds
+const otherSessions = WebsiteConfig.otherSpeakers.contributionIds
   .map((id) => sessions.find((session: any) => session.friendly_id === id))
   .filter(Boolean);
 
-const featuredSpeakers = [];
-for (const session of featuredSessions) {
-  if (session.speakers.length === 0) {
-    featuredSpeakers.push({
-      name: "TBD",
-      profileImg: null,
-      title: session.title,
-      url: session.url,
-    });
-  }
+const otherSpeakers = [];
 
+for (const session of otherSessions) {
   for (const speaker of session.speakers) {
-    const imgId = WebsiteConfig.featuredSpeakers.speakerIds.find(
+    const imgId = WebsiteConfig.otherSpeakers.speakerIds.find(
       (user) => speaker.db_id === user.db_id
     );
     if (!imgId) continue;
@@ -36,29 +26,32 @@ for (const session of featuredSessions) {
         d.name.toLowerCase() ===
         `${speaker.first_name} ${speaker.last_name}`.toLowerCase()
     );
-    featuredSpeakers.push({
+    otherSpeakers.push({
       name: `${speaker.first_name} ${speaker.last_name}`,
-      profileImg: details?.image || eventLogo.src,
-      title: details?.title,
+      profileImg: details?.image,
       url: session.url,
+      db_id: speaker.db_id,
     });
   }
 }
+otherSpeakers.sort((a, b) => {
+  const ids = WebsiteConfig.otherSpeakers.speakerIds.map((s) => s.db_id);
+  return ids.indexOf(a.db_id) - ids.indexOf(b.db_id);
+});
 ---
 
 {
-  featuredSpeakers.length > 0 && (
+  otherSpeakers.length > 0 && (
     <section class="p-section">
       <div class="p-section--shallow">
         <div class="row">
           <hr class="p-rule" />
         </div>
-
         <div class="row">
-          <h2>Featured speakers</h2>
-          {featuredSpeakers.map((speaker) => (
+          <h2>Other speakers</h2>
+          {otherSpeakers.map((speaker) => (
             <a href={speaker.url} target="_blank" class="col-4 col-medium-3">
-              <div class="p-media-object--large p-button--base">
+              <div class="wrapper p-media-object--large p-button--base">
                 <img
                   src={speaker.profileImg}
                   onerror={`this.onerror=null;this.src=${eventLogo.src}`}
@@ -68,19 +61,10 @@ for (const session of featuredSessions) {
                 />
                 <div class="p-media-object__details">
                   <h3>{speaker.name}</h3>
-                  <p class="p-media-object__content">{speaker.title}</p>
-                  <ul class="p-media-object__meta-list" />
                 </div>
               </div>
             </a>
           ))}
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="p-button" id="see-all-speakers-btn">
-              See all speakers
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -91,10 +75,15 @@ for (const session of featuredSessions) {
   h3 {
     color: var(--vf-color-link-default);
   }
-
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   h3,
   .p-media-object__content {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
+    font-size: 18px;
   }
 
   .p-button--base {
