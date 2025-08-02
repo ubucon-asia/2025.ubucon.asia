@@ -87,7 +87,7 @@ export const committeeMembers = [
   },
   {
     name: "Rabina Karki",
-    team: "Local team",
+    team: "Local team & Ubuntu Nepal",
     role: "Sponsorship & Finances",
     profileImageUrl: RabinaImage.src,
   },
