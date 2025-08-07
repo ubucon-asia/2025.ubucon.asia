@@ -9,6 +9,8 @@ import sxc from "@assets/sponsors/sxc.png"
 import DeepComputing from "@assets/sponsors/DeepComputing.svg";
 import Logpoint from "@assets/sponsors/logpoint.svg";
 import nic from "@assets/sponsors/community_partners/nic.png";
+import nec from "@assets/sponsors/nec.png";
+import cloud_himalaya from "@assets/sponsors/cloud_himalaya.png";
 
 export const sponsors = [
   {
@@ -87,6 +89,12 @@ export const sponsors = [
         url: "https://www.logpoint.com/",
         description: `Logpoint Nepal Pvt. Ltd., a leading global cybersecurity company specializing in Security Information and Event Management (SIEM), Security Operations (SecOps), and advanced analytics solutions.`,
       },
+      {
+        name: "Cloud Himalaya",
+        logoUrl: cloud_himalaya.src,
+        url: "https://www.cloudhimalaya.com/",
+        description: `Cloud Himalaya Pvt. Ltd., founded in 2013 and headquartered in Kathmandu’s Central Business Park, operates Nepal’s only Tier‑4 data center, offering unmatched reliability and performance with 99.995% uptime. Serving over 500 public and private-sector clients, the company delivers core services including colocation, VPS, web hosting, managed services, and backup solutions`,
+      },
     ],
   },
   // {
@@ -138,6 +146,22 @@ export const sponsors = [
     ],
   },
   {
+    sponsorLevelName: "Research Partner",
+    sizeOnLargeScreen: 2,
+    sizeOnMediumScreen: 2,
+    sizeOnSmallScreen: 1,
+    showPopup: true,
+    list: [
+      {
+        name: "Nepal Engineering College",
+        logoUrl: nec.src,
+        url: "http://www.nec.edu.np/",
+        description:
+          "Nepal Engineering College (nec), established in 1994, is a not-for-profit institution committed to providing quality technical education. Founded by visionary professionals, it aims to support Nepal’s economic growth through engineering and technology.",
+      },
+    ],
+  },
+  {
     sponsorLevelName: "Media Partner",
     sizeOnLargeScreen: 2,
     sizeOnMediumScreen: 2,
@@ -183,7 +207,7 @@ export const sponsors = [
         logoUrl: nosk.src,
         url: "",
         description: "",
-      }
+      },
     ],
   },
 ];
