@@ -11,6 +11,7 @@ import Logpoint from "@assets/sponsors/logpoint.svg";
 import nic from "@assets/sponsors/community_partners/nic.png";
 import nec from "@assets/sponsors/nec.png";
 import cloud_himalaya from "@assets/sponsors/cloud_himalaya.png";
+import ifn from "@assets/sponsors/community_partners/ifn.png"
 
 export const sponsors = [
   {
@@ -130,22 +131,6 @@ export const sponsors = [
     ],
   },
   {
-    sponsorLevelName: "Knowledge Partner",
-    sizeOnLargeScreen: 2,
-    sizeOnMediumScreen: 2,
-    sizeOnSmallScreen: 1,
-    showPopup: true,
-    list: [
-      {
-        name: "Programiz",
-        logoUrl: programiz.src,
-        url: "https://www.programiz.com/",
-        description:
-          "Programiz is a learning platform by Parewa Labs that helps beginners easily learn programming through interactive tutorials, coding challenges, and real-world projects. Covering languages like Python, C, C++, Java and many more. It serves over 10 million learners globally through its website, mobile apps, and Programiz PRO subscription.",
-      },
-    ],
-  },
-  {
     sponsorLevelName: "Research Partner",
     sizeOnLargeScreen: 2,
     sizeOnMediumScreen: 2,
@@ -158,6 +143,22 @@ export const sponsors = [
         url: "http://www.nec.edu.np/",
         description:
           "Nepal Engineering College (nec), established in 1994, is a not-for-profit institution committed to providing quality technical education. Founded by visionary professionals, it aims to support Nepal’s economic growth through engineering and technology.",
+      },
+    ],
+  },
+  {
+    sponsorLevelName: "Knowledge Partner",
+    sizeOnLargeScreen: 2,
+    sizeOnMediumScreen: 2,
+    sizeOnSmallScreen: 1,
+    showPopup: true,
+    list: [
+      {
+        name: "Programiz",
+        logoUrl: programiz.src,
+        url: "https://www.programiz.com/",
+        description:
+          "Programiz is a learning platform by Parewa Labs that helps beginners easily learn programming through interactive tutorials, coding challenges, and real-world projects. Covering languages like Python, C, C++, Java and many more. It serves over 10 million learners globally through its website, mobile apps, and Programiz PRO subscription.",
       },
     ],
   },
@@ -205,6 +206,12 @@ export const sponsors = [
       {
         name: "Nepal Open Source Klub",
         logoUrl: nosk.src,
+        url: "",
+        description: "",
+      },
+      {
+        name: "ICT Foundation Nepal",
+        logoUrl: ifn.src,
         url: "",
         description: "",
       },
