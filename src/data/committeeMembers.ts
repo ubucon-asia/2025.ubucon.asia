@@ -17,6 +17,7 @@ import kripaImage from "@assets/localteam/kripa.png";
 import shraddhaImage from "@assets/localteam/shraddha.png";
 import prasubhaImage from "@assets/localteam/prasubha.png";
 import rajanImage from "@assets/localteam/rajan.jpg";
+import aadityaImage from "@assets/localteam/aaditya.png"
 
 export const committeeMembers = [
   {
@@ -144,6 +145,12 @@ export const committeeMembers = [
     team: "Local team",
     role: "Local Mentoring & Support",
     profileImageUrl: rajanImage.src,
+  },
+  {
+    name: "Aaditya Binod Yadav",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: aadityaImage.src,
   },
   {
     name: "Ujashna Dangol",
