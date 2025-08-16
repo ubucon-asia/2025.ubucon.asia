@@ -10,6 +10,7 @@ import PreviewImage from "@assets/ogimage.png";
 import UbuntuNepal from "@assets/ubuntu_nepal.png";
 import CfpPromoImage from "@assets/uca25cfp_promo.jpg";
 import impact_nexus from "@assets/sponsors/impact_nexus_nepal.png";
+import boothImage from "@assets/floor-map/booth.png"
 
 export interface SubMenuItem {
   link: string;
@@ -279,5 +280,10 @@ export const VenueFloorMaps = [
     floor: "Ground Floor",
     image: GroundFloor.src,
     alt: "Ground Floor Map",
+  },
+  {
+    floor: "Booth Area",
+    image: boothImage.src,
+    alt: "Booth Area Map",
   },
 ];
