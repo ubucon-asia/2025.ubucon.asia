@@ -3,6 +3,7 @@ import { useState } from "react";
 type SponsorLogoAndModalProps = {
   name: string;
   level: string;
+  partnerTag?:string;
   logoImageSrc: string;
   description: string;
   url: string;
@@ -50,7 +51,8 @@ export default function SponsorLogoAndModal(props: SponsorLogoAndModalProps) {
           </header>
           <img src={props.logoImageSrc} alt={props.name} />
           <h1>{props.name}</h1>
-          <b>{props.level}</b>
+          <b>{props.level} </b>
+          <b>{props.partnerTag}</b>
           <p>{props.description}</p>
           <footer className="p-modal__footer">
             <a href={props.url}>
