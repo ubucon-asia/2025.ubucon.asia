@@ -17,7 +17,9 @@ import kripaImage from "@assets/localteam/kripa.png";
 import shraddhaImage from "@assets/localteam/shraddha.png";
 import prasubhaImage from "@assets/localteam/prasubha.png";
 import rajanImage from "@assets/localteam/rajan.jpg";
-import aadityaImage from "@assets/localteam/aaditya.png"
+import anjaliImage from "@assets/localteam/anjali.jpg"
+import bibekImage from "@assets/localteam/bibek.jpg"
+import jenishImage from "@assets/localteam/jenish.png"
 
 export const committeeMembers = [
   {
@@ -146,17 +148,23 @@ export const committeeMembers = [
     role: "Local Mentoring & Support",
     profileImageUrl: rajanImage.src,
   },
-  {
-    name: "Aaditya Binod Yadav",
+    {
+    name: "Anjali Mahato",
     team: "Volunteer",
     role: "",
-    profileImageUrl: aadityaImage.src,
+    profileImageUrl: anjaliImage.src,
   },
-  {
+    {
     name: "Ujashna Dangol",
     team: "Volunteer",
     role: "",
     profileImageUrl: ujashanaImage.src,
+  },
+  {
+    name: "Bibek Kushawaha",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: bibekImage.src,
   },
   {
     name: "Shraddha Tiwari",
@@ -181,6 +189,12 @@ export const committeeMembers = [
     team: "Volunteer",
     role: "",
     profileImageUrl: aayushaImage.src,
+  },
+    {
+    name: "Jenish Shrestha",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: jenishImage.src,
   },
   {
     name: "Prabesh Pant",
