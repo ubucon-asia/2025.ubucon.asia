@@ -14,7 +14,7 @@ import hemp from "@assets/sponsors/Supporters/hemp.jpg";
 import ncit from "@assets/sponsors/Supporters/ncit.png";
 import ncloud from "@assets/sponsors/Supporters/ncloud.png";
 import plant from "@assets/sponsors/Startup/plant.jpg";
-// import rekriti from "@assets/sponsors/Startup/rekriti.jpeg";
+import rekriti from "@assets/sponsors/Startup/rekriti.jpg";
 // import skywalk from "@assets/sponsors/Startup/skywalk.png";
 // import ug from "@assets/sponsors/Startup/ug.jpg";
 // import whoopee from "@assets/sponsors/Startup/whoopee.png";
@@ -221,6 +221,13 @@ export const sponsors = [
         name: "The Plant Room",
         logoUrl: plant.src,
         url: "https://www.instagram.com/theplantro0m/",
+        description:"",
+      },
+       {
+        name: "Rekriti",
+        partnerTag: "-Upcycling Partner",
+        logoUrl: rekriti.src,
+        url: "https://www.instagram.com/re.kriti/?hl=en",
         description:"",
       },
     ],
