@@ -18,7 +18,7 @@ import ncloud from "@assets/sponsors/Supporters/ncloud.png";
 // import skywalk from "@assets/sponsors/Startup/skywalk.png";
 // import ug from "@assets/sponsors/Startup/ug.jpg";
 // import whoopee from "@assets/sponsors/Startup/whoopee.png";
-import chandru from "@assets/sponsors/Startup/chandru.png";
+// import chandru from "@assets/sponsors/Startup/chandru.png";
 import singapore from "@assets/sponsors/Supporters/singapore.png";
 import global_cyber from "@assets/sponsors/community_partners/Global_Cybersecurity_Community.png";
 import nic from "@assets/sponsors/community_partners/nic.png";
@@ -167,13 +167,13 @@ export const sponsors = [
     sizeOnSmallScreen: 1,
     showPopup: true,
     list: [
-      {
-        name: "Chandragiri Hills Pvt. Ltd",
-        logoUrl: chandru.src,
-        url: "https://www.chandragirihills.com/",
-        description:
-          "Chandragiri Hills, located on the outskirts of Kathmandu, is a popular hill station offering panoramic views of the Kathmandu Valley and the Himalayan range. Famous for its cable car, lush landscapes, and recreational facilities, it’s a top destination for nature lovers and tourists seeking a peaceful escape from the city",
-      },
+      // {
+      //   name: "Chandragiri Hills Pvt. Ltd",
+      //   logoUrl: chandru.src,
+      //   url: "https://www.chandragirihills.com/",
+      //   description:
+      //     "Chandragiri Hills, located on the outskirts of Kathmandu, is a popular hill station offering panoramic views of the Kathmandu Valley and the Himalayan range. Famous for its cable car, lush landscapes, and recreational facilities, it’s a top destination for nature lovers and tourists seeking a peaceful escape from the city",
+      // },
       {
         name: "Nepal College of Information and Technology",
         logoUrl: ncit.src,
