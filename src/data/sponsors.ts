@@ -13,9 +13,9 @@ import cake from "@assets/sponsors/Supporters/cake.png";
 import hemp from "@assets/sponsors/Supporters/hemp.jpg";
 import ncit from "@assets/sponsors/Supporters/ncit.png";
 import ncloud from "@assets/sponsors/Supporters/ncloud.png";
-// import plant from "@assets/sponsors/Startup/plant.jpg";
-// import rekriti from "@assets/sponsors/Startup/rekriti.jpeg";
-// import skywalk from "@assets/sponsors/Startup/skywalk.png";
+import plant from "@assets/sponsors/Startup/plant.jpg";
+import rekriti from "@assets/sponsors/Startup/rekriti.jpg";
+import skywalk from "@assets/sponsors/Startup/skywalk.png";
 // import ug from "@assets/sponsors/Startup/ug.jpg";
 // import whoopee from "@assets/sponsors/Startup/whoopee.png";
 // import chandru from "@assets/sponsors/Startup/chandru.png";
@@ -208,6 +208,35 @@ export const sponsors = [
         "Cotton Hemp Creation is a Nepal-based company specializing in the manufacturing of high-quality bags using locally sourced materials, primarily cotton and hemp fabrics. We cater to both wholesale and retail customers, offering a wide range of products that combine durability, sustainability, and style."
       },
        
+    ],
+  },
+  {
+    sponsorLevelName: "Startup",
+    sizeOnLargeScreen: 2,
+    sizeOnMediumScreen: 2,
+    sizeOnSmallScreen: 1,
+    showPopup: true,
+    list: [
+      {
+        name: "The Plant Room",
+        logoUrl: plant.src,
+        url: "https://www.instagram.com/theplantro0m/",
+        description:"",
+      },
+       {
+        name: "Rekriti",
+        partnerTag: "-Upcycling Partner",
+        logoUrl: rekriti.src,
+        url: "https://www.instagram.com/re.kriti/?hl=en",
+        description:"",
+      },
+      {
+        name: "Skywalk Nepal",
+        partnerTag: "-Adventure Partner",
+        logoUrl: skywalk.src,
+        url: "https://www.skywalknepal.com/",
+        description:"",
+      },
     ],
   },
   {
