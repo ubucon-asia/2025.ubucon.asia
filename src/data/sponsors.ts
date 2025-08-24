@@ -182,6 +182,13 @@ export const sponsors = [
           "Nepal College of Information Technology (NCIT), established in 2001 and affiliated with Pokhara University, offers Bachelor’s and Master’s programs in IT, Engineering, and Management. Renowned for academic excellence, research, and industry collaboration, NCIT equips students with the skills, innovation, and values needed to excel professionally and contribute to nation-building.",
       },
       {
+        name: "Skywalk Nepal",
+        partnerTag: "-Adventure Partner",
+        logoUrl: skywalk.src,
+        url: "https://www.skywalknepal.com/",
+        description:"",
+      },
+      {
         name: "Nepali Cloud",
         logoUrl: ncloud.src,
         url: "https://clients.nepalicloud.com/",
@@ -230,13 +237,7 @@ export const sponsors = [
         url: "https://www.instagram.com/re.kriti/?hl=en",
         description:"",
       },
-      {
-        name: "Skywalk Nepal",
-        partnerTag: "-Adventure Partner",
-        logoUrl: skywalk.src,
-        url: "https://www.skywalknepal.com/",
-        description:"",
-      },
+      
     ],
   },
   {
