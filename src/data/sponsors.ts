@@ -17,7 +17,7 @@ import plant from "@assets/sponsors/Startup/plant.jpg";
 import rekriti from "@assets/sponsors/Startup/rekriti.jpg";
 import skywalk from "@assets/sponsors/Startup/skywalk.png";
 // import ug from "@assets/sponsors/Startup/ug.jpg";
-import whoopee from "@assets/sponsors/Supporter/whoopee.png";
+import whoopee from "@assets/sponsors/Supporters/whoopee.png";
 import singapore from "@assets/sponsors/Supporters/singapore.png";
 import global_cyber from "@assets/sponsors/community_partners/Global_Cybersecurity_Community.png";
 import nic from "@assets/sponsors/community_partners/nic.png";
