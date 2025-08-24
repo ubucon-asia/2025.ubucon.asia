@@ -23,7 +23,7 @@ import jenishImage from "@assets/localteam/jenish.png"
 import abhisekImage from "@assets/localteam/Abhishek.png"
 import adityaBImage from "@assets/localteam/AdityaB.png"
 import gauravImage from "@assets/localteam/Gaurav.png"
-import alexImage from "@assets/localteam/alex.PNG"
+import alexImage from "@assets/localteam/alex.png"
 
 
 export const committeeMembers = [
