@@ -23,6 +23,8 @@ import jenishImage from "@assets/localteam/jenish.png"
 import abhisekImage from "@assets/localteam/Abhishek.png"
 import adityaBImage from "@assets/localteam/AdityaB.png"
 import gauravImage from "@assets/localteam/Gaurav.png"
+import alexImage from "@assets/localteam/alex.PNG"
+
 
 export const committeeMembers = [
   {
@@ -235,5 +237,10 @@ export const committeeMembers = [
     role: "",
     profileImageUrl: gauravImage.src,
   },
-
+  {
+    name: "Alex Maharjan",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: alexImage.src,
+  },
 ];
