@@ -17,8 +17,7 @@ import plant from "@assets/sponsors/Startup/plant.jpg";
 import rekriti from "@assets/sponsors/Startup/rekriti.jpg";
 import skywalk from "@assets/sponsors/Startup/skywalk.png";
 // import ug from "@assets/sponsors/Startup/ug.jpg";
-// import whoopee from "@assets/sponsors/Startup/whoopee.png";
-// import chandru from "@assets/sponsors/Startup/chandru.png";
+import whoopee from "@assets/sponsors/Supporters/whoopee.png";
 import singapore from "@assets/sponsors/Supporters/singapore.png";
 import global_cyber from "@assets/sponsors/community_partners/Global_Cybersecurity_Community.png";
 import nic from "@assets/sponsors/community_partners/nic.png";
@@ -200,6 +199,12 @@ export const sponsors = [
         url: "https://singaporebeverage.com/",
         description: "Singapore Beverages Nepal is redefining ‘Made in Nepal’ by proving that local products can match global standards. Committed to quality and innovation, we aim to change perceptions and deliver beverages that Nepalis can trust and take pride in.",
       },
+      {
+        name: "Whoopee Land Amusement and Water Park",
+        logoUrl: whoopee.src,
+        url: "https://whoopeelandpark.com/",
+        description: "Whoopee Land Amusement and Water Park is one of Nepal’s largest amusement and water parks, located in Chobhar, Kathmandu. It offers a wide range of thrilling rides, family attractions, adventure activities, and refreshing water slides, making it a popular destination for fun, recreation, and family outings."
+        },
        {
         name: "Interview Cake",
         logoUrl: cake.src,
