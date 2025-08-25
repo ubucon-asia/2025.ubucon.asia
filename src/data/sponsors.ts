@@ -197,6 +197,7 @@ export const sponsors = [
       },
       {
         name: "Singapore Beverages Pvt. Ltd.",
+        partnerTag: "-Beverage Partner",
         logoUrl: singapore.src,
         url: "https://singaporebeverage.com/",
         description: "Singapore Beverages Nepal is redefining ‘Made in Nepal’ by proving that local products can match global standards. Committed to quality and innovation, we aim to change perceptions and deliver beverages that Nepalis can trust and take pride in.",
