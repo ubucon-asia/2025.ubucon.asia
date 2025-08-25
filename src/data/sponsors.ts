@@ -24,7 +24,9 @@ import nic from "@assets/sponsors/community_partners/nic.png";
 import CSRI from "@assets/sponsors/community_partners/csri.png";
 import nosk from "@assets/sponsors/community_partners/nosk.png";
 import ifn from "@assets/sponsors/community_partners/ifn.png";
+import pathao from "@assets/sponsors/Startup/pathao.png";
 import legaladvisor from "@assets/sponsors/community_partners/om_shivshakti_law_associates.png";
+
 
 
 export const sponsors = [
@@ -235,11 +237,18 @@ export const sponsors = [
         url: "https://www.instagram.com/theplantro0m/",
         description:"",
       },
-       {
+      {
         name: "Rekriti",
         partnerTag: "-Upcycling Partner",
         logoUrl: rekriti.src,
         url: "https://www.instagram.com/re.kriti/?hl=en",
+        description:"",
+      },
+      {
+        name: "Pathao",
+        partnerTag: "-Mobility Partner",
+        logoUrl: pathao.src,
+        url: "https://pathao.com/np/",
         description:"",
       },
       
