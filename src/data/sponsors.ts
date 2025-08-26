@@ -25,6 +25,7 @@ import nosk from "@assets/sponsors/community_partners/nosk.png";
 import ifn from "@assets/sponsors/community_partners/ifn.png";
 import pathao from "@assets/sponsors/Startup/pathao.png";
 import legaladvisor from "@assets/sponsors/community_partners/om_shivshakti_law_associates.png";
+import ugCake from "@assets/sponsors/Startup/ug.jpg";
 
 export const sponsors = [
   {
@@ -246,7 +247,13 @@ export const sponsors = [
         url: "https://pathao.com/np/",
         description:"",
       },
-      
+      {
+        name: "UG Cakes",
+        partnerTag: "Celebration Partner",
+        logoUrl: ugCake.src,
+        url: "https://www.ugcakes.com/",
+        description:"",
+      },
     ],
   },
   {
