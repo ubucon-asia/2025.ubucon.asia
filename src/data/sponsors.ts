@@ -249,6 +249,36 @@ export const sponsors = [
     ],
   },
   {
+    sponsorLevelName: "Startup",
+    sizeOnLargeScreen: 2,
+    sizeOnMediumScreen: 2,
+    sizeOnSmallScreen: 1,
+    showPopup: true,
+    list: [
+      {
+        name: "The Plant Room",
+        logoUrl: plant.src,
+        url: "https://www.instagram.com/theplantro0m/",
+        description:"",
+      },
+      {
+        name: "Rekriti",
+        partnerTag: "-Upcycling Partner",
+        logoUrl: rekriti.src,
+        url: "https://www.instagram.com/re.kriti/?hl=en",
+        description:"",
+      },
+      {
+        name: "Pathao",
+        partnerTag: "-Mobility Partner",
+        logoUrl: pathao.src,
+        url: "https://pathao.com/np/",
+        description:"",
+      },
+      
+    ],
+  },
+  {
     sponsorLevelName: "Community Partners",
     sizeOnLargeScreen: 2,
     sizeOnMediumScreen: 2,
