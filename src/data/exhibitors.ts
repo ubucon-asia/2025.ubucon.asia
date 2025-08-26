@@ -1,6 +1,6 @@
 
-import Canonical from "@assets/sponsors/Canonical_Ubuntu.svg";
-import DeepComputing from "@assets/sponsors/DeepComputing.svg";
+import Canonical from "@assets/sponsors/Gold/Canonical_Ubuntu.svg";
+import DeepComputing from "@assets/sponsors/Bronze/DeepComputing.svg";
 import Ubu4Cut from "@assets/exhibitors/ubu4cut.png"
 import UbuntuKylinOpenKylin from "@assets/exhibitors/ubuntukylin_openkylin.png";
 import ThingsCyber from "@assets/exhibitors/things_cyber.png";
