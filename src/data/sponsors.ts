@@ -26,6 +26,7 @@ import ifn from "@assets/sponsors/community_partners/ifn.png";
 import pathao from "@assets/sponsors/Startup/pathao.png";
 import legaladvisor from "@assets/sponsors/community_partners/om_shivshakti_law_associates.png";
 import ugCake from "@assets/sponsors/Startup/ug.jpg";
+import faithWork from "@assets/sponsors/Startup/FWNepal.png";
 
 export const sponsors = [
   {
@@ -252,6 +253,13 @@ export const sponsors = [
         partnerTag: "Celebration Partner",
         logoUrl: ugCake.src,
         url: "https://www.ugcakes.com/",
+        description:"",
+      },
+      {
+        name: "Faith Works",
+        partnerTag: "Bag Partner",
+        logoUrl: faithWork.src,
+        url: "https://faithworksnepal.com/",
         description:"",
       },
     ],
