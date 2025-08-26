@@ -1,0 +1,23 @@
+---
+import { ticketPatron } from "../data/patron.ts";
+---
+
+<div class="grid-row">
+  <div class="grid-col-medium-3 grid-col-4">
+    <div class="p-media-object--large">
+      <img
+        src={ticketPatron.img}
+        class="p-media-object__image is-round"
+        alt={ticketPatron.name}
+      />
+      <div class="p-media-object__details">
+        <a href={ticketPatron.url} target="_blank">
+          <h4>{ticketPatron.name}</h4>
+        </a>
+        <p class="p-media-object__content">
+          {`${ticketPatron.amount}`}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

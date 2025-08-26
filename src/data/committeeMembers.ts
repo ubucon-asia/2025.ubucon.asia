@@ -20,6 +20,11 @@ import rajanImage from "@assets/localteam/rajan.jpg";
 import anjaliImage from "@assets/localteam/anjali.jpg"
 import bibekImage from "@assets/localteam/bibek.jpg"
 import jenishImage from "@assets/localteam/jenish.png"
+import abhisekImage from "@assets/localteam/Abhishek.png"
+import adityaBImage from "@assets/localteam/AdityaB.png"
+import gauravImage from "@assets/localteam/Gaurav.png"
+import alexImage from "@assets/localteam/alex.png"
+
 
 export const committeeMembers = [
   {
@@ -213,5 +218,29 @@ export const committeeMembers = [
     team: "Volunteer",
     role: "",
     profileImageUrl: aakashImage.src,
+  },
+  {
+    name: "Abhisekh Kushawaha",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: abhisekImage.src,
+  },
+  {
+    name: "Aditya Binod Yadav",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: adityaBImage.src,
+  },
+  {
+    name: "Gaurav Giri",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: gauravImage.src,
+  },
+  {
+    name: "Alex Maharjan",
+    team: "Volunteer",
+    role: "",
+    profileImageUrl: alexImage.src,
   },
 ];
