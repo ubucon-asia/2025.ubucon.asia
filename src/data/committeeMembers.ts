@@ -220,7 +220,7 @@ export const committeeMembers = [
     profileImageUrl: aakashImage.src,
   },
   {
-    name: "Abhisekh Kushawaha",
+    name: "Abhishek Kushawaha",
     team: "Volunteer",
     role: "",
     profileImageUrl: abhisekImage.src,
