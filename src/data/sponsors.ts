@@ -1,7 +1,7 @@
 import annapurna from "@assets/sponsors/Bronze/annapurna.png";
 import Canonical from "@assets/sponsors/Gold/Canonical_Ubuntu.svg";
 import sxc from "@assets/sponsors/Silver/sxc.png"
-import dishhome from "@assets/sponsors/Silver/dishhome.jpg";
+import dishhome from "@assets/sponsors/Silver/dishhome.png";
 import ONLYOFFICE from "@assets/sponsors/Bronze/onlyOffice.svg";
 import programiz from "@assets/sponsors/Bronze/programiz.svg";
 import DeepComputing from "@assets/sponsors/Bronze/DeepComputing.svg";
@@ -10,13 +10,13 @@ import nec from "@assets/sponsors/Bronze/nec.png";
 import cloud_himalaya from "@assets/sponsors/Bronze/cloud_himalaya.png";
 import sob from "@assets/sponsors/Bronze/sob.png";
 import cake from "@assets/sponsors/Supporters/cake.png";
-import hemp from "@assets/sponsors/Supporters/hemp.jpg";
+import hemp from "@assets/sponsors/Startup/hemp.jpg";
 import ncit from "@assets/sponsors/Supporters/ncit.png";
 import ncloud from "@assets/sponsors/Supporters/ncloud.png";
 import plant from "@assets/sponsors/Startup/plant.jpg";
 import rekriti from "@assets/sponsors/Startup/rekriti.jpg";
 import skywalk from "@assets/sponsors/Startup/skywalk.png";
-// import ug from "@assets/sponsors/Startup/ug.jpg";
+import ug from "@assets/sponsors/Startup/ug.jpg";
 import whoopee from "@assets/sponsors/Supporters/whoopee.png";
 import singapore from "@assets/sponsors/Supporters/singapore.png";
 import global_cyber from "@assets/sponsors/community_partners/Global_Cybersecurity_Community.png";
@@ -26,6 +26,7 @@ import nosk from "@assets/sponsors/community_partners/nosk.png";
 import ifn from "@assets/sponsors/community_partners/ifn.png";
 import pathao from "@assets/sponsors/Startup/pathao.png";
 import legaladvisor from "@assets/sponsors/community_partners/om_shivshakti_law_associates.png";
+import techaxis from "@assets/sponsors/Supporters/Techaxis.jpg";
 
 
 
@@ -216,12 +217,12 @@ export const sponsors = [
       
       },
       {
-        name: "Cotton Hemp Creation",
-        logoUrl: hemp.src,
-        url: "https://www.facebook.com/p/Cotton-Hemp-Creation-61563803027274/",
-        description:
-        "Cotton Hemp Creation is a Nepal-based company specializing in the manufacturing of high-quality bags using locally sourced materials, primarily cotton and hemp fabrics. We cater to both wholesale and retail customers, offering a wide range of products that combine durability, sustainability, and style."
-      },
+      name: "Techaxis",
+        partnerTag: "-Training Partner",
+        logoUrl: techaxis.src,
+        url: "https://techaxis.com.np/",
+        description:"TechAxis is a premier IT learning academy in Nepal, dedicated to equipping individuals with practical, industry-driven skills in emerging technologies while supporting their career growth through real-world projects, internships, and job placement opportunities.",
+      }
        
     ],
   },
@@ -245,20 +246,26 @@ export const sponsors = [
         url: "https://www.instagram.com/re.kriti/?hl=en",
         description:"",
       },
+      
       {
-        name: "Pathao",
-        partnerTag: "-Mobility Partner",
-        logoUrl: pathao.src,
-        url: "https://pathao.com/np/",
+        name: "Ug Cakes",
+        partnerTag: "-Celebration Partner",
+        logoUrl: ug.src,
+        url: "https://www.ugcakes.com/",
         description:"",
       },
-      
+      {
+        name: "Cotton Hemp Creation",
+        logoUrl: hemp.src,
+        url: "https://www.facebook.com/p/Cotton-Hemp-Creation-61563803027274/",
+        description: "",
+      },
     ],
   },
   {
     sponsorLevelName: "Community Partners",
-    sizeOnLargeScreen: 2,
-    sizeOnMediumScreen: 2,
+    sizeOnLargeScreen: 1,
+    sizeOnMediumScreen: 1,
     sizeOnSmallScreen: 1,
     showPopup: false,
     list: [
