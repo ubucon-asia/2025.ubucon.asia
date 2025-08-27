@@ -1,7 +1,7 @@
 import annapurna from "@assets/sponsors/Bronze/annapurna.png";
 import Canonical from "@assets/sponsors/Gold/Canonical_Ubuntu.svg";
 import sxc from "@assets/sponsors/Silver/sxc.png"
-import dishhome from "@assets/sponsors/Silver/dishhome.png";
+import dishhome from "@assets/sponsors/Silver/dishhome.jpg";
 import ONLYOFFICE from "@assets/sponsors/Bronze/onlyOffice.svg";
 import programiz from "@assets/sponsors/Bronze/programiz.svg";
 import DeepComputing from "@assets/sponsors/Bronze/DeepComputing.svg";
@@ -16,7 +16,7 @@ import ncloud from "@assets/sponsors/Supporters/ncloud.png";
 import plant from "@assets/sponsors/Startup/plant.jpg";
 import rekriti from "@assets/sponsors/Startup/rekriti.jpg";
 import skywalk from "@assets/sponsors/Startup/skywalk.png";
-import ug from "@assets/sponsors/Startup/ug.jpg";
+// import ug from "@assets/sponsors/Startup/ug.jpg";
 import whoopee from "@assets/sponsors/Supporters/whoopee.png";
 import singapore from "@assets/sponsors/Supporters/singapore.png";
 import global_cyber from "@assets/sponsors/community_partners/Global_Cybersecurity_Community.png";
@@ -26,7 +26,6 @@ import nosk from "@assets/sponsors/community_partners/nosk.png";
 import ifn from "@assets/sponsors/community_partners/ifn.png";
 import pathao from "@assets/sponsors/Startup/pathao.png";
 import legaladvisor from "@assets/sponsors/community_partners/om_shivshakti_law_associates.png";
-import techaxis from "@assets/sponsors/Supporters/Techaxis.jpg";
 
 
 
@@ -40,7 +39,7 @@ export const sponsors = [
     list: [
       {
         name: "Canonical",
-        partnerTag:"-test",
+        partnerTag: "-test",
         logoUrl: Canonical.src,
         url: "https://ubuntu.com/",
         description:
@@ -85,9 +84,8 @@ export const sponsors = [
         logoUrl: dishhome.src,
         url: "https://dishhome.com.np/",
         description:
-          "DishHome is Nepal’s leading provider of digital TV and internet services. It began with DTH television and later expanded into high-speed fiber internet. The company serves homes and businesses with reliable nationwide coverage. Today, DishHome is among the top ISPs and entertainment providers in Nepal."
-        },
-
+          "DishHome is Nepal’s leading provider of digital TV and internet services. It began with DTH television and later expanded into high-speed fiber internet. The company serves homes and businesses with reliable nationwide coverage. Today, DishHome is among the top ISPs and entertainment providers in Nepal.",
+      },
     ],
   },
   {
@@ -108,8 +106,7 @@ export const sponsors = [
         name: "DeepComputing",
         logoUrl: DeepComputing.src,
         url: "https://www.deepcomputing.io/",
-        description: 
-          `Formed in 2022 by a group of dedicated RISC-V pioneers, DeepComputing is headquartered in Hong Kong. We share an enduring passion for advancing the adoption and implementation of RISC-V beyond existing ISA chipsets. 
+        description: `Formed in 2022 by a group of dedicated RISC-V pioneers, DeepComputing is headquartered in Hong Kong. We share an enduring passion for advancing the adoption and implementation of RISC-V beyond existing ISA chipsets. 
         Our aim is to create bold new products. With faith in our diverse and dedicated partners, we believe in the promising new future of RISC-V. 
         Together, we will focus on driving the development of the RISC-V ecosystem with products such as laptops, pads, workstations, headphones, smart watches, smart speakers, AR glasses and autonomous driving for toys and real world vehicles.`,
       },
@@ -117,17 +114,15 @@ export const sponsors = [
         name: "Logpoint",
         logoUrl: Logpoint.src,
         url: "https://www.logpoint.com/",
-        description: 
-          `Logpoint Nepal Pvt. Ltd., a leading global cybersecurity company specializing in Security Information and Event Management (SIEM), Security Operations (SecOps), and advanced analytics solutions.`,
+        description: `Logpoint Nepal Pvt. Ltd., a leading global cybersecurity company specializing in Security Information and Event Management (SIEM), Security Operations (SecOps), and advanced analytics solutions.`,
       },
       {
         name: "Cloud Himalaya",
         logoUrl: cloud_himalaya.src,
         url: "https://www.cloudhimalaya.com/",
-        description: 
-          `Cloud Himalaya Pvt. Ltd., founded in 2013 and headquartered in Kathmandu’s Central Business Park, operates Nepal’s only Tier‑4 data center, offering unmatched reliability and performance with 99.995% uptime. Serving over 500 public and private-sector clients, the company delivers core services including colocation, VPS, web hosting, managed services, and backup solutions`,
+        description: `Cloud Himalaya Pvt. Ltd., founded in 2013 and headquartered in Kathmandu’s Central Business Park, operates Nepal’s only Tier‑4 data center, offering unmatched reliability and performance with 99.995% uptime. Serving over 500 public and private-sector clients, the company delivers core services including colocation, VPS, web hosting, managed services, and backup solutions`,
       },
-       {
+      {
         name: "Nepal Engineering College",
         partnerTag: "-Research Partner",
         logoUrl: nec.src,
@@ -151,14 +146,14 @@ export const sponsors = [
         description:
           "Annapurna Media Network (AMN) is a leading media company in Nepal, dedicated to promoting the country’s social and economic development through responsible media practices.  Established in 2002, AMN has expanded its reach across various platforms, including print, radio, television, and digital media.",
       },
-       {
+      {
         name: "School of Bakery and Pastry",
         partnerTag: "-Hi-tea Partner",
         logoUrl: sob.src,
         url: "https://schoolofbakingandpastry.com.np/",
         description:
-         "Founded in 2018, the School of Baking and Pastry Technology is Nepal’s first bakery and pastry school, offering diploma, certificate, and specialized professional programs in pastries, chocolate, and bread making. Led by experienced pastry chefs, the school provides hands-on training and small class sizes to prepare students for successful careers or entrepreneurship in the bakery and pastry industry.",
-        },
+          "Founded in 2018, the School of Baking and Pastry Technology is Nepal’s first bakery and pastry school, offering diploma, certificate, and specialized professional programs in pastries, chocolate, and bread making. Led by experienced pastry chefs, the school provides hands-on training and small class sizes to prepare students for successful careers or entrepreneurship in the bakery and pastry industry.",
+      },
     ],
   },
 
@@ -180,7 +175,7 @@ export const sponsors = [
         name: "Nepal College of Information and Technology",
         logoUrl: ncit.src,
         url: "https://ncit.edu.np/",
-        description: 
+        description:
           "Nepal College of Information Technology (NCIT), established in 2001 and affiliated with Pokhara University, offers Bachelor’s and Master’s programs in IT, Engineering, and Management. Renowned for academic excellence, research, and industry collaboration, NCIT equips students with the skills, innovation, and values needed to excel professionally and contribute to nation-building.",
       },
       {
@@ -188,41 +183,44 @@ export const sponsors = [
         partnerTag: "-Adventure Partner",
         logoUrl: skywalk.src,
         url: "https://www.skywalknepal.com/",
-        description:"",
+        description: "",
       },
       {
         name: "Nepali Cloud",
         logoUrl: ncloud.src,
         url: "https://clients.nepalicloud.com/",
-        description: "Nepali Cloud is a web hosting service from Nepal, offering secure, reliable and affordable solutions for individuals, developers and organizations. From shared hosting and VPS to domain management, we help users establish and grow their online presence with ease. Built with open-source values at its core, Nepali Cloud is proud to support UbuCon Asia 2025 and contribute to strengthening the open-source and Ubuntu communities across the region."
+        description:
+          "Nepali Cloud is a web hosting service from Nepal, offering secure, reliable and affordable solutions for individuals, developers and organizations. From shared hosting and VPS to domain management, we help users establish and grow their online presence with ease. Built with open-source values at its core, Nepali Cloud is proud to support UbuCon Asia 2025 and contribute to strengthening the open-source and Ubuntu communities across the region.",
       },
       {
         name: "Singapore Beverages Pvt. Ltd.",
         partnerTag: "-Beverage Partner",
         logoUrl: singapore.src,
         url: "https://singaporebeverage.com/",
-        description: "Singapore Beverages Nepal is redefining ‘Made in Nepal’ by proving that local products can match global standards. Committed to quality and innovation, we aim to change perceptions and deliver beverages that Nepalis can trust and take pride in.",
+        description:
+          "Singapore Beverages Nepal is redefining ‘Made in Nepal’ by proving that local products can match global standards. Committed to quality and innovation, we aim to change perceptions and deliver beverages that Nepalis can trust and take pride in.",
       },
       {
         name: "Whoopee Land Amusement and Water Park",
         logoUrl: whoopee.src,
         url: "https://whoopeelandpark.com/",
-        description: "Whoopee Land Amusement and Water Park is one of Nepal’s largest amusement and water parks, located in Chobhar, Kathmandu. It offers a wide range of thrilling rides, family attractions, adventure activities, and refreshing water slides, making it a popular destination for fun, recreation, and family outings."
-        },
-       {
+        description:
+          "Whoopee Land Amusement and Water Park is one of Nepal’s largest amusement and water parks, located in Chobhar, Kathmandu. It offers a wide range of thrilling rides, family attractions, adventure activities, and refreshing water slides, making it a popular destination for fun, recreation, and family outings.",
+      },
+      {
         name: "Interview Cake",
         logoUrl: cake.src,
         url: "https://www.interviewcake.com/",
-        description: "Interview Cake is an online platform that helps job seekers prepare for coding interviews. It offers step-by-step problem explanations, practice questions, and strategies to build strong problem-solving skills and confidence for technical interviews.",
-      
+        description:
+          "Interview Cake is an online platform that helps job seekers prepare for coding interviews. It offers step-by-step problem explanations, practice questions, and strategies to build strong problem-solving skills and confidence for technical interviews.",
       },
       {
-      name: "Techaxis",
-        partnerTag: "-Training Partner",
-        logoUrl: techaxis.src,
-        url: "https://techaxis.com.np/",
-        description:"TechAxis is a premier IT learning academy in Nepal, dedicated to equipping individuals with practical, industry-driven skills in emerging technologies while supporting their career growth through real-world projects, internships, and job placement opportunities.",
-      }
+        name: "Cotton Hemp Creation",
+        logoUrl: hemp.src,
+        url: "https://www.facebook.com/p/Cotton-Hemp-Creation-61563803027274/",
+        description:
+        "Cotton Hemp Creation is a Nepal-based company specializing in the manufacturing of high-quality bags using locally sourced materials, primarily cotton and hemp fabrics. We cater to both wholesale and retail customers, offering a wide range of products that combine durability, sustainability, and style."
+      },
        
     ],
   },
@@ -254,12 +252,7 @@ export const sponsors = [
         url: "https://www.ugcakes.com/",
         description:"",
       },
-      {
-        name: "Cotton Hemp Creation",
-        logoUrl: hemp.src,
-        url: "https://www.facebook.com/p/Cotton-Hemp-Creation-61563803027274/",
-        description: "",
-      },
+      
     ],
   },
   {

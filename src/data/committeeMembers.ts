@@ -184,13 +184,13 @@ export const committeeMembers = [
     profileImageUrl: kripaImage.src,
   },
   {
-    name: "Prasubha Pathak",
+    name: "Prashubha Pathak",
     team: "Volunteer",
     role: "",
     profileImageUrl: prasubhaImage.src,
   },
   {
-    name: "Aayusha Pradhananga",
+    name: "Ayusha Pradhananga",
     team: "Volunteer",
     role: "",
     profileImageUrl: aayushaImage.src,
