@@ -40,7 +40,6 @@ export const sponsors = [
     list: [
       {
         name: "Canonical",
-        partnerTag: "-test",
         logoUrl: Canonical.src,
         url: "https://ubuntu.com/",
         description:
