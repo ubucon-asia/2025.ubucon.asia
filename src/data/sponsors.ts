@@ -1,6 +1,6 @@
 import annapurna from "@assets/sponsors/Bronze/annapurna.png";
 import Canonical from "@assets/sponsors/Gold/Canonical_Ubuntu.svg";
-import sxc from "@assets/sponsors/Silver/sxc.png"
+import sxc from "@assets/sponsors/Silver/sxc.png";
 import dishhome from "@assets/sponsors/Silver/dishhome.png";
 import ONLYOFFICE from "@assets/sponsors/Bronze/onlyOffice.svg";
 import programiz from "@assets/sponsors/Bronze/programiz.svg";
@@ -20,15 +20,15 @@ import ug from "@assets/sponsors/Startup/ug.jpg";
 import whoopee from "@assets/sponsors/Supporters/whoopee.png";
 import singapore from "@assets/sponsors/Supporters/singapore.png";
 import global_cyber from "@assets/sponsors/community_partners/Global_Cybersecurity_Community.png";
+import fw from "@assets/sponsors/Startup/FWNepal.png"
 import nic from "@assets/sponsors/community_partners/nic.png";
 import CSRI from "@assets/sponsors/community_partners/csri.png";
 import nosk from "@assets/sponsors/community_partners/nosk.png";
 import ifn from "@assets/sponsors/community_partners/ifn.png";
 import pathao from "@assets/sponsors/Startup/pathao.png";
 import techaxis from "@assets/sponsors/Supporters/Techaxis.jpg";
+import wwktm from "@assets/sponsors/community_partners/wwktm.png";
 import legaladvisor from "@assets/sponsors/community_partners/om_shivshakti_law_associates.png";
-
-
 
 export const sponsors = [
   {
@@ -221,7 +221,6 @@ export const sponsors = [
         description:
           "TechAxis is a premier IT learning academy in Nepal, dedicated to equipping individuals with practical, industry-driven skills in emerging technologies while supporting their career growth through real-world projects, internships, and job placement opportunities.",
       },
-      
     ],
   },
   {
@@ -235,36 +234,41 @@ export const sponsors = [
         name: "The Plant Room",
         logoUrl: plant.src,
         url: "https://www.instagram.com/theplantro0m/",
-        description:"",
+        description: "",
       },
       {
         name: "Rekriti",
         partnerTag: "-Upcycling Partner",
         logoUrl: rekriti.src,
         url: "https://www.instagram.com/re.kriti/?hl=en",
-        description:"",
-      }, 
+        description: "",
+      },
       {
         name: "Ug Cakes",
         partnerTag: "-Celebration Partner",
         logoUrl: ug.src,
         url: "https://www.ugcakes.com/",
-        description:"",
+        description: "",
       },
       {
         name: "Pathao",
         partnerTag: "-Mobility Partner",
         logoUrl: pathao.src,
         url: "https://pathao.com/np/",
-        description:"",
+        description: "",
       },
       {
         name: "Cotton Hemp Creation",
         logoUrl: hemp.src,
         url: "https://www.facebook.com/p/Cotton-Hemp-Creation-61563803027274/",
-        description:""
+        description: "",
       },
-      
+      {
+        name: "Faith Works Bags and Accessories",
+        logoUrl: fw.src,
+        url: "https://faithworksnepal.com/",
+        description: "",
+      },
     ],
   },
   {
@@ -307,6 +311,12 @@ export const sponsors = [
       {
         name: "Om Shivshakti Law Associates",
         logoUrl: legaladvisor.src,
+        url: "",
+        description: "",
+      },
+      {
+        name: "Web Weekend Kathmandu",
+        logoUrl: wwktm.src,
         url: "",
         description: "",
       },
