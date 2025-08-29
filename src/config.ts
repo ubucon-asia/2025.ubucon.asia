@@ -79,7 +79,7 @@ export const WebsiteConfig = {
         },
         {
           label: "Timetable",
-          link: "https://events.canonical.com/event/127/timetable/",
+          link: "https://events.canonical.com/event/127/timetable/?layout=room",
         },
         {
           label: "Social events",
@@ -186,8 +186,13 @@ export const WebsiteConfig = {
         class: "p-button--positive",
       },
       {
-        label: "Become a sponsor!",
-        link: "/sponsors/become-a-sponsor",
+        label: "Chat with participants",
+        link: "https://docs.ubucon.asia/chat/",
+        class: "p-button--positive",
+      },
+      {
+        label: "Timetable",
+        link: "https://events.canonical.com/event/127/timetable/?layout=room",
         class: "p-button--positive",
       },
     ],
@@ -196,18 +201,15 @@ export const WebsiteConfig = {
   featuredSpeakers: {
     displayOnMainPage: true,
     indicoExportUrl:
-      "https://events.canonical.com/export/event/127.json?detail=contributions&occ=yes&pretty=yes",
-    contributionIds: [26, 30, 68, 16, 13, 37, 61],
+      "https://events.canonical.com/export/event/47.json?detail=contributions&occ=yes&pretty=yes",
+    contributionIds: [16, 61, 68, 13, 37, 26, 30],
     speakerIds: [
-      { db_id: 921, user: 914 },
-      { db_id: 950, user: 912 },
-      { db_id: 963, user: 942 },
-      { db_id: 925, user: 929 },
-      { db_id: 926, user: 928 },
-      { db_id: 928, user: 931 },
-      { db_id: 964, user: 974 },
-      { db_id: 943, user: 902 },
-      { db_id: 944, user: 970 },
+      { db_id: 522, user: 746 },
+      { db_id: 517, user: 166 },
+      { db_id: 494, user: 615 },
+      { db_id: 515, user: 628 },
+      { db_id: 516, user: 271 },
+      { db_id: 487, user: 3 },
     ],
     fullSchedulesUrl: "ddd",
   },
