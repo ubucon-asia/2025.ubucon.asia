@@ -19,6 +19,7 @@ import skywalk from "@assets/sponsors/Supporters/skywalk.png";
 import ug from "@assets/sponsors/Startup/ug.jpg";
 import whoopee from "@assets/sponsors/Supporters/whoopee.png";
 import singapore from "@assets/sponsors/Supporters/singapore.png";
+import clinic_one from "@assets/sponsors/Supporters/clinic_one.png"
 import global_cyber from "@assets/sponsors/community_partners/Global_Cybersecurity_Community.png";
 import fw from "@assets/sponsors/Startup/FWNepal.png"
 import nic from "@assets/sponsors/community_partners/nic.png";
@@ -220,6 +221,13 @@ export const sponsors = [
         url: "https://techaxis.com.np/",
         description:
           "TechAxis is a premier IT learning academy in Nepal, dedicated to equipping individuals with practical, industry-driven skills in emerging technologies while supporting their career growth through real-world projects, internships, and job placement opportunities.",
+      },
+      {
+        name: "Clinic One",
+        logoUrl: clinic_one.src,
+        url: "https://clinicone.com.np/",
+        description:
+          "Clinic One Nepal is a leading multi-specialty preventive clinic in Kathmandu, offering high-quality healthcare through expert consultations, diagnostic imaging, outpatient procedures, vaccinations, and pharmacy services.",
       },
     ],
   },
