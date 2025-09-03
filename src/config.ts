@@ -129,6 +129,10 @@ export const WebsiteConfig = {
           label: "Chat",
           link: "https://docs.ubucon.asia/chat",
         },
+        {
+          label: "Community Photo Album",
+          link: "https://photos.app.goo.gl/H8pZBLKDz2CgASnJ8"
+        }
       ],
     },
   ],
