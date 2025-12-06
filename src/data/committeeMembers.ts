@@ -142,24 +142,12 @@ export const committeeMembers = [
     profileImageUrl: FelixImage.src,
   },
   {
-    name: "Sanjay Paudel",
-    team: "Local team",
-    role: "Local Mentoring & Support",
-    profileImageUrl: sanjayImage.src,
-  },
-  {
-    name: "Rajan Karmacharya",
-    team: "Local team",
-    role: "Local Mentoring & Support",
-    profileImageUrl: rajanImage.src,
-  },
-    {
     name: "Anjali Mahato",
     team: "Volunteer",
     role: "",
     profileImageUrl: anjaliImage.src,
   },
-    {
+  {
     name: "Ujashna Dangol",
     team: "Volunteer",
     role: "",
@@ -195,7 +183,7 @@ export const committeeMembers = [
     role: "",
     profileImageUrl: aayushaImage.src,
   },
-    {
+  {
     name: "Jenish Shrestha",
     team: "Volunteer",
     role: "",
@@ -242,5 +230,17 @@ export const committeeMembers = [
     team: "Volunteer",
     role: "",
     profileImageUrl: alexImage.src,
+  },
+  {
+    name: "Sanjay Paudel",
+    team: "Local Mentoring & Support",
+    role: "",
+    profileImageUrl: sanjayImage.src,
+  },
+  {
+    name: "Rajan Karmacharya",
+    team: "Local Mentoring & Support",
+    role: "",
+    profileImageUrl: rajanImage.src,
   },
 ];

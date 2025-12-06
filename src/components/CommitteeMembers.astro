@@ -10,7 +10,8 @@ const teams = {
     member.team.includes("Local team")
   ),
   "Local Team Members": committeeMembers.filter((member) =>
-    member.team.includes("Volunteer")
+    member.team.includes("Volunteer") ||
+    member.team.includes("Local Mentoring & Support")
   ),
 };
 ---
