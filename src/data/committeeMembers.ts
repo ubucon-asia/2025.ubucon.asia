@@ -77,25 +77,25 @@ export const committeeMembers = [
   },
   {
     name: "Aaditya Singh",
-    team: "Local team & Ubuntu Nepal",
+    team: "Local team",
     role: "Local team chief + Steering",
     profileImageUrl: "https://avatars.githubusercontent.com/u/142494719?v=4",
   },
   {
     name: "Sailesh Singh",
-    team: "Local team & Ubuntu Nepal",
+    team: "Local team",
     role: "Travel support & Accommodation",
     profileImageUrl: "https://avatars.githubusercontent.com/u/58818777?v=4",
   },
   {
     name: "Utsav Bhattarai",
-    team: "Local team & Ubuntu Nepal",
+    team: "Local team",
     role: "Web, Content",
     profileImageUrl: UtsavImage.src,
   },
   {
     name: "Rabina Karki",
-    team: "Local team & Ubuntu Nepal",
+    team: "Local team",
     role: "Sponsorship & Finances",
     profileImageUrl: RabinaImage.src,
   },
@@ -113,7 +113,7 @@ export const committeeMembers = [
   },
   {
     name: "Rupesh Nepal",
-    team: "Local team & Ubuntu Nepal",
+    team: "Local team",
     role: "Registration & People Coordination",
     profileImageUrl: RupeshImage.src,
   },
@@ -143,17 +143,17 @@ export const committeeMembers = [
   },
   {
     name: "Sanjay Paudel",
-    team: "Local team",
-    role: "Local Mentoring & Support",
+    team: "Local Mentoring & Support",
+    role: "",
     profileImageUrl: sanjayImage.src,
   },
   {
     name: "Rajan Karmacharya",
-    team: "Local team",
-    role: "Local Mentoring & Support",
+    team: "Local Mentoring & Support",
+    role: "",
     profileImageUrl: rajanImage.src,
   },
-    {
+  {
     name: "Anjali Mahato",
     team: "Volunteer",
     role: "",
