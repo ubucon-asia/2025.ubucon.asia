@@ -8,6 +8,7 @@ import DeepComputing from "@assets/sponsors/Bronze/DeepComputing.svg";
 import Logpoint from "@assets/sponsors/Bronze/logpoint.png";
 import nec from "@assets/sponsors/Bronze/nec.png";
 import cloud_himalaya from "@assets/sponsors/Bronze/cloud_himalaya.png";
+import ThingsCyber from "@assets/exhibitors/things_cyber.png";
 import sob from "@assets/sponsors/Bronze/sob.png";
 import cake from "@assets/sponsors/Supporters/cake.png";
 import hemp from "@assets/sponsors/Startup/hemp.jpg";
@@ -275,6 +276,12 @@ export const sponsors = [
         name: "Faith Works Bags and Accessories",
         logoUrl: fw.src,
         url: "https://faithworksnepal.com/",
+        description: "",
+      },
+      {
+        name: "Things Cyber Booth",
+        logoUrl: ThingsCyber.src,
+        url: "https://thingscyber.com.np/",
         description: "",
       },
     ],
