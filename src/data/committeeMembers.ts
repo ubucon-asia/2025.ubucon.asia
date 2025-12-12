@@ -243,16 +243,4 @@ export const committeeMembers = [
     role: "",
     profileImageUrl: alexImage.src,
   },
-  {
-    name: "Sanjay Paudel",
-    team: "Local Mentoring & Support",
-    role: "",
-    profileImageUrl: sanjayImage.src,
-  },
-  {
-    name: "Rajan Karmacharya",
-    team: "Local Mentoring & Support",
-    role: "",
-    profileImageUrl: rajanImage.src,
-  },
 ];
